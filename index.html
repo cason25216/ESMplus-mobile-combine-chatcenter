@@ -34,6 +34,66 @@ main{padding-bottom:calc(105px + env(safe-area-inset-bottom))}.unified-nav{posit
 +.shared-store-top{padding-top:6px;margin-bottom:20px;min-height:53px}.shared-store-spacer{width:20px;flex-shrink:0}.shared-store-top .chat-store-picker{margin-left:auto}.app-kam main,.app-my main{padding-top:16px}.task-more{margin-left:auto;background:none;color:var(--green);font-size:10px;min-height:40px;padding:5px 0 5px 7px;white-space:nowrap;flex-shrink:0}.geni-heading{gap:8px}.geni-heading h2{font-size:14px}.geni-heading p{font-size:9px}.geni-heading .geni-avatar{width:34px;height:34px}.recommended-tasks>h2,.tracking-page>h2{font-size:22px;line-height:1.4;margin:14px 0 8px}.recommended-tasks>.muted{margin-bottom:16px}.recommended-task-list{display:grid;gap:10px}.recommended-task-row{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:16px;text-align:left;color:var(--ink);width:100%}.recommended-icon{display:grid;place-items:center;width:34px;height:34px;flex-shrink:0;background:#eaf3ec;color:var(--green);border-radius:10px;font-size:22px}.recommended-copy{display:grid;justify-items:start;gap:7px;min-width:0;flex:1}.recommended-copy b{font-size:14px;line-height:1.5}.recommended-copy small{font-size:9px;color:var(--muted)}.recommended-copy>span:last-child{font-size:10px;color:var(--green)}.recommended-arrow{color:var(--green);font-size:20px}.tracking-explainer{background:#e9f3ec;color:#597562;padding:13px;border-radius:10px;font-size:11px;line-height:1.7;margin:18px 0}.tracking-products{margin-top:16px}.tracking-product-row{display:flex;gap:10px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}.tracking-product-row:last-child{border:0;padding-bottom:0}.tracking-product-row>span{font-size:22px}.tracking-product-row b{display:block;font-size:11px;line-height:1.6}.tracking-product-row small{display:block;color:var(--muted);font-size:9px;margin-top:5px}
 .app-dashboard main,.app-menu main,.app-chat main{padding-top:16px}
 .management-store{margin-left:auto;display:flex;gap:6px;align-items:center;font-size:12px;color:var(--muted)}
+.chat-center-view .platform-conversation{margin:8px 0;padding:12px 10px;border:1px solid #cfe4d6;border-left:3px solid var(--green);border-radius:12px;background:#edf6ef}
+.platform-conversation .customer-avatar,.platform-chat-context .icon{background:#d6ebdd;color:#076c50;border-radius:11px;font-weight:800}
+.platform-conversation .conversation-preview{color:#526e60}
+.platform-conversation .unread-chat{right:9px}
+.official-chat-badge{display:inline-block;padding:2px 5px;border-radius:5px;background:#dcefe2;color:#076c50;font-size:8px;font-weight:700;white-space:nowrap}
+.platform-chat-context{background:#edf6ef;border-color:#cfe4d6;align-items:center}
+.message-bubble.incoming.platform-incoming{background:#edf6ef;border-color:#cfe4d6}
+.app-operation main{padding-top:16px}
+.operation-home{display:grid;gap:12px}
+.operation-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.operation-shortcut{display:grid;justify-items:center;align-content:center;gap:8px;min-width:0;min-height:82px;padding:9px 5px;background:white;color:var(--ink);border:1px solid var(--line);border-radius:12px;font-size:11px;font-weight:700;line-height:1.4}
+.operation-shortcut-icon{width:34px;height:34px;display:grid;place-items:center;border-radius:9px;background:#eaf4ed;color:var(--green)}
+.operation-shortcut-icon svg{width:20px;height:20px}
+.safety-stock-form{display:grid;gap:9px;margin-top:14px}
+.safety-stock-form label{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:9px;font-size:11px}
+.safety-stock-form label>span{min-width:0}
+.safety-stock-form small{display:block;color:var(--muted);font-size:9px;margin-top:3px}
+.safety-stock-form input[type=number]{width:78px;flex-shrink:0;font-size:16px;min-height:40px;margin:0;padding:7px}
+.safety-stock-form .btn{margin-top:5px;font-size:12px}
+.item-management-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.stock-settings-button{display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--green)}
+.stock-warning-filter{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:10px;color:var(--green)}
+.app-topbar{display:flex;align-items:center;justify-content:flex-start;flex-wrap:nowrap;gap:9px;min-height:50px;margin:0 0 16px;padding:0}
+.app-topbar>.chat-center-title{flex:0 1 auto;min-width:0;max-width:42%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px}
+.app-seller-picker{position:relative;margin-left:auto;min-width:0}
+.app-seller-picker summary{display:flex;align-items:center;gap:5px;min-height:44px;list-style:none;cursor:pointer;font-size:11px;color:#557364;white-space:nowrap}
+.app-seller-picker summary::-webkit-details-marker{display:none}
+.app-seller-picker summary>span:nth-child(2){max-width:135px;overflow:hidden;text-overflow:ellipsis}
+.app-seller-picker .gmark{font-size:18px;flex-shrink:0}
+.app-seller-picker>div{position:absolute;right:0;top:100%;z-index:15;width:190px;padding:13px;background:white;border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 20px #12351a18;font-size:12px}
+.app-seller-picker small{display:block;font-size:10px;color:var(--muted);margin-top:6px}
+.seller-switch-trigger{margin-left:auto;min-width:0;min-height:44px;display:flex;align-items:center;gap:5px;background:none;color:#557364;font-size:11px}
+.seller-switch-trigger .gmark{flex-shrink:0;font-size:18px}
+.seller-switch-trigger .seller-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.seller-switch-dialog .settings-row{min-height:52px;text-align:left}
+.seller-switch-dialog .settings-row small{display:block;color:var(--muted);margin-top:4px}
+.reminder-setting small{display:block;margin-top:4px;color:var(--muted);font-size:10px}
+.reminder-setting .setting-switch{flex-shrink:0}
+.app-bell{position:relative;display:grid;place-items:center;flex-shrink:0;width:40px;height:44px;background:transparent;color:var(--ink);border-radius:9px}
+.app-bell-badge{position:absolute;top:2px;right:0;display:grid;place-items:center;min-width:15px;height:15px;padding:0 3px;border-radius:8px;border:1px solid white;background:#da6753;color:white;font-size:8px}
+.chat-local-search{align-items:center;background:white;margin-bottom:10px;padding:5px 7px;gap:5px}
+.chat-local-search>svg{flex-shrink:0;color:var(--muted);margin-left:3px}
+.chat-local-search input{width:0;font-size:12px;min-height:32px;background:none}
+.chat-local-search button{min-height:32px}
+.platform-unread-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
+.notification-modal .notification-scroll> .topline h2{font-size:17px}
+.notification-modal .notification-scroll> .topline .text-btn{font-size:10px}
+.notification-modal .notification-list{padding:0}
+@media(max-width:359px){.app-topbar{gap:5px}.app-seller-picker summary{font-size:10px;gap:3px}.app-seller-picker summary>span:nth-child(2){max-width:113px}.app-topbar>.chat-center-title{font-size:13px}}
+.notification-center{background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:4px}
+.notification-center summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:8px 11px;list-style:none;cursor:pointer;color:var(--ink);font-size:11px;font-weight:700}
+.notification-center summary::-webkit-details-marker{display:none}
+.notification-center summary svg{flex-shrink:0;color:var(--green)}
+.notification-center .notice-chevron{margin-left:0}
+.notification-count{margin-left:auto;padding:2px 6px;border-radius:8px;background:#eaf4ed;color:var(--green);font-size:9px}
+.notification-list{display:grid;padding:0 11px 5px}
+.notification-row{border-top:1px solid var(--line);padding:10px 0}
+.notification-row h3{font-size:11px;margin:5px 0;color:var(--ink)}
+.notification-row p{font-size:10px;margin:0;line-height:1.6}
+.notification-row .text-btn{font-size:10px;min-height:36px}
 .management-picker{position:relative;flex-shrink:0;z-index:5}
 .management-picker summary{display:flex;align-items:center;gap:8px;min-height:44px;list-style:none;cursor:pointer;font-size:15px;font-weight:700;color:var(--ink)}
 .management-picker summary::-webkit-details-marker{display:none}
@@ -49,6 +109,33 @@ main{padding-bottom:calc(105px + env(safe-area-inset-bottom))}.unified-nav{posit
 .system-chat-row .unread-chat{right:9px}
 .system-message-list,.management-list{display:grid;gap:10px;margin-top:14px}
 .system-message h3{margin:10px 0 5px}.system-message p{margin:0 0 12px}
+.system-message.coming-soon{border-style:dashed;background:#f8faf8}
+.system-message.coming-soon p{margin-bottom:0}
+.coming-soon-label{color:#607468;background:#e9efea}
+.task-status-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;padding:3px;background:#e8eeea;border-radius:11px}
+.task-status-tabs button{min-height:40px;padding:4px 2px;border-radius:8px;background:transparent;color:#52685e;font-size:11px;line-height:1.25}
+.task-status-tabs button.active{background:#fff;color:var(--green);font-weight:700}
+.task-center-list{display:grid;gap:8px;margin-top:10px}
+.task-center-list .task-card{margin:0;padding:11px 12px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px}
+.task-card h3{font-size:14px;line-height:1.35;margin:5px 0 2px;overflow-wrap:anywhere}
+.task-card p{font-size:11px;line-height:1.4;margin:0}
+.task-card-meta{display:flex;align-items:center;flex-wrap:wrap;gap:4px 7px;font-size:10px;color:#52685e}
+.task-status{padding:3px 6px;border-radius:5px;font-weight:700;background:#e5f2ea;color:#246146}
+.task-status.pending{background:#fff1da;color:#80510c}
+.task-status.progress{background:#e7effb;color:#28578a}
+.task-card .btn{max-width:105px;min-height:44px;padding:6px 9px;font-size:11px;line-height:1.25}
+.task-card.coming-soon{grid-template-columns:1fr;border-style:dashed;background:#f8faf8}
+.task-card .coming-soon-label{font-size:10px}
+.agreement-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:11px;line-height:1.45;margin:12px 0}
+.agreement-table th,.agreement-table td{padding:7px 5px;text-align:left;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.agreement-table th:first-child{width:33%}
+.agreement-table td:last-child,.agreement-table thead th:last-child{background:#edf5ef}
+.agreement-consent{display:flex;align-items:flex-start;gap:8px;font-size:12px;line-height:1.5;padding:8px 0}
+.agreement-consent input{flex:none;margin:2px 0 0;accent-color:var(--green)}
+.agreement-form .btn:disabled{opacity:.5;cursor:default}
+.system-thread{display:grid;gap:10px;margin-top:14px}
+.system-thread .message-bubble.outgoing{justify-self:end;max-width:88%}
+.system-thread .card p{overflow-wrap:anywhere}
 .system-message .btn,.item-management-card .btn{padding:8px 13px;font-size:11px}
 .management-field{display:grid;gap:6px;font-size:11px;color:var(--muted);margin-top:12px;min-width:0}
 .management-field select{width:100%;min-width:0}
@@ -65,13 +152,21 @@ main{padding-bottom:calc(105px + env(safe-area-inset-bottom))}.unified-nav{posit
 
 
 .dashboard-primary-tabs button[aria-pressed=true]{background:var(--green);color:white}
-.app-dashboard .date-tabs{background:transparent;border-radius:0;border-bottom:1px solid var(--line);padding:0;gap:8px}
-.app-dashboard .date-tabs button{min-height:36px;border:0;border-bottom:2px solid transparent;border-radius:0}
-.app-dashboard .date-tabs button.active{background:transparent;box-shadow:none;border-bottom-color:var(--green);color:var(--green)}
+.app-operation .date-tabs{background:transparent;border-radius:0;border-bottom:1px solid var(--line);padding:0;gap:8px}
+.app-operation .date-tabs button{min-height:36px;border:0;border-bottom:2px solid transparent;border-radius:0}
+.app-operation .date-tabs button.active{background:transparent;box-shadow:none;border-bottom-color:var(--green);color:var(--green)}
 </style></head><body><div class="shell"><main><div id="content"></div><footer><span>ESM+ POCKET / DESIGNED FOR SELLERS</span><span>交互原型 · 所有数据均为模拟</span></footer></main></div><div id="app-navigation"></div><div id="overlay"></div><div id="toast" role="status"></div>
 <script>
 
-let state;try{state=JSON.parse(localStorage.getItem('esm-pocket-unified-v4'))||{}}catch{state={}}
+const sellerAccounts=[
+  {id:'GM-10284',name:'오늘 · Lifestyle',avatar:'O.',storageKey:'esm-pocket-unified-v4'},
+  {id:'GM-20736',name:'하루 · Living',avatar:'H.',storageKey:'esm-pocket-unified-v4-GM-20736'}
+];
+let activeSeller=sellerAccounts.find(seller=>seller.id===localStorage.getItem('esm-pocket-seller-id'))||sellerAccounts[0];
+function loadSellerState(seller){
+  try{return JSON.parse(localStorage.getItem(seller.storageKey))||{}}catch{return {}}
+}
+let state=loadSellerState(activeSeller);
 const translations=[["经营看板","Dashboard","대시보드"],["活动机会","Campaigns","참여 기회"],["活动报告","Reports","캠페인 리포트"],["活动日报","Daily report","일일 리포트"],["活动复盘","Campaign review","캠페인 결산"],["早上好，오늘商店 👋","Good morning, 오늘 👋","좋은 아침이에요, 오늘 👋"],["让好商品，被更多人看见","Bring your products into the spotlight","좋은 상품을 더 많은 고객에게"],["每一场活动，都有收获","Insights from every campaign","캠페인마다 새로운 인사이트"],["2026年10月26日 · 周一 / 数据更新于 09:00 KST","Mon, Oct 26, 2026 / Updated at 09:00 KST","2026년 10월 26일 월요일 / 09:00 KST 업데이트"],["发现适合你的营销机会","Find the right campaign for your store","내 스토어에 맞는 캠페인 찾기"],["日报与整期复盘","Daily insights & campaign reviews","일일 성과와 전체 결산"],["生活选物","Lifestyle essentials","라이프스타일 셀렉트"],["Gmarket 优选商家","Gmarket selected seller","Gmarket 우수 판매자"],["每一个经营机会","Every business opportunity,","모든 비즈니스 기회를"],["都在掌心，及时把握。","right at your fingertips.","손안에서 빠르게 잡으세요."],["交互原型 · 所有数据均为模拟","Interactive demo · All data is simulated","인터랙티브 데모 · 모든 데이터는 가상입니다"],["招商进行中","Applications open","참여 신청 진행 중"],["下一波增长机会，","Your next growth opportunity","다음 성장의 기회가"],["已经为你准备好了。","is ready for you.","준비되어 있어요."],["Nov Big Smile Day","Nov Big Smile Day","Nov Big Smile Day"],["11月1日—11月7日","Nov 1–7","11월 1일–7일"],["报名截止 10月29日 18:00 KST","Apply by Oct 29, 18:00 KST","신청 마감 10월 29일 18:00 KST"],["查看已报名商品","View enrolled products","신청 상품 보기"],["查看商品并报名","View products & apply","상품 확인 및 신청"],["件商品已报名","products enrolled","개 상품 신청 완료"],["件商品命中招商要求","eligible products","개 상품 신청 가능"],["经营概览","Store overview","스토어 현황"],["昨日","Yesterday","어제"],["韩国时间","KST","한국 시간"],["成交金额 GMV","Gross merchandise value","거래액 GMV"],["支付订单","Paid orders","결제 주문"],["商品访客","Product visitors","상품 방문자"],["支付转化率","Payment conversion","결제 전환율"],["较前日","vs. previous day","전일 대비"],["个百分点","pp","%p"],["成交趋势","Sales trend","거래액 추이"],["近 7 日","Last 7 days","최근 7일"],["本期","Current period","이번 기간"],["上期","Previous period","이전 기간"],["值得关注","Needs your attention","확인해 주세요"],["已报名，查看参与商品","Enrolled · View products","신청 완료 · 참여 상품 확인"],["3 件商品可报名 · 距截止 3 天","3 eligible products · 3 days left","신청 가능 상품 3개 · 마감까지 3일"],["秋日焕新 · 昨日战报","Autumn Refresh · Daily brief","가을 리프레시 · 어제 성과"],["活动成交额增长 24.8%","Campaign GMV grew 24.8%","캠페인 거래액 24.8% 증가"],["查看昨日战报","View daily brief","일일 성과 보기"],["小提示：报名方案可在提交前调整。","Tip: Adjust your offer before submitting.","팁: 제출 전에 신청 조건을 수정할 수 있어요."],["抓住每一个适合你的增长窗口。","Make the most of your next opportunity.","내 스토어에 맞는 성장 기회를 잡으세요."],["招商中","Applications open","신청 진행 중"],["报名截止 10.29","Apply by Oct 29","신청 마감 10.29"],["活动时间","Campaign dates","캠페인 기간"],["Gmarket Campaign 会场","Gmarket Flash Sale hub","Gmarket 플래시 세일 기획전"],["报名要求与优惠规则","Eligibility & discount rules","참여 조건 및 할인 규칙"],["近30日评分 ≥ 4.5","30-day rating ≥ 4.5","최근 30일 평점 ≥ 4.5"],["可售库存 ≥ 50 件","Available stock ≥ 50","판매 가능 재고 ≥ 50개"],["活动到手价需低于商品报名上限","Final price must meet the product price cap","최종 구매가는 상품별 신청 상한 이하여야 합니다"],["SD 与 SV 由商家承担","SD and SV are funded by the seller","SD 및 SV는 판매자가 부담합니다"],["以下商品满足评分与库存要求。建议方案已预填，请核对价格与优惠后报名。","These products meet rating and stock requirements. Review the suggested prices and discounts before applying.","평점과 재고 조건을 충족한 상품입니다. 제안된 가격과 할인을 확인한 후 신청해 주세요."],["优惠演示规则：到手价 = 活动售价 × (1 − SD%) × (1 − SV%)，四舍五入至韩元。","Demo rule: Final price = sale price × (1 − SD%) × (1 − SV%), rounded to KRW.","데모 규칙: 최종 구매가 = 행사 판매가 × (1 − SD%) × (1 − SV%), 원 단위 반올림."],["可报名商品","Eligible products","신청 가능 상품"],["已报名","Enrolled","신청 완료"],["报名已完成","Application complete","신청이 완료되었어요"],["你的商品已加入 Nov Big Smile Day。","Your products have joined the Nov Big Smile Day.","Nov Big Smile Day에 상품이 신청되었습니다."],["查看报名结果","View application","신청 결과 보기"],["全选可报名商品","Select all eligible products","신청 가능 상품 전체 선택"],["可自行调整建议方案","Suggested offers are editable","제안 조건 수정 가능"],["纯棉宽松短袖","Relaxed cotton tee","코튼 루즈핏 반팔"],["轻量通勤帆布包","Lightweight canvas tote","라이트 캔버스 토트백"],["舒适休闲运动鞋","Comfort sneakers","컴포트 스니커즈"],["日常售价","Regular price","정상가"],["库存","Stock","재고"],["活动售价 ₩","Sale price ₩","행사 판매가 ₩"],["SD 商家直降 %","SD discount %","SD 판매자 할인 %"],["SV 商家券 %","SV voucher %","SV 판매자 쿠폰 %"],["预计买家到手价","Final buyer price","예상 최종 구매가"],["报名上限","Price cap","신청 가격 상한"],["已选 ","Selected ","선택 "],[" 件商品"," products","개 상품"],["确认即提交价格与优惠方案","Submit prices and discounts on confirmation","확인 시 가격 및 할인 조건 제출"],["一键确认报名","Confirm & apply","참여 신청"],["演示说明：不会修改真实商品或提交到 Gmarket。真实上线时需对接招商资格、优惠叠加及报名接口。","Demo only. No real products are changed or submitted to Gmarket. Production requires eligibility, discount and enrollment APIs.","데모 전용입니다. 실제 상품 수정이나 Gmarket 신청은 진행되지 않습니다. 정식 서비스에는 참여 자격, 할인 및 신청 API 연동이 필요합니다."],["报名成功 · 方案已保存于本浏览器 · 活动尚未开始","Applied · Saved in this browser · Campaign has not started","신청 완료 · 현재 브라우저에 저장됨 · 행사 시작 전"],["活动售价","Sale price","행사 판매가"],["预计到手价","Estimated final price","예상 최종 구매가"],["还没有报名商品","No products enrolled yet","아직 신청한 상품이 없어요"],["查看平台推荐商品，开始你的下一场活动。","Explore recommended products for your next campaign.","추천 상품을 확인하고 다음 캠페인을 시작해 보세요."],["去报名","Apply now","신청하기"],["请检查整数价格与优惠范围，并确保到手价不超过报名上限。","Enter whole numbers within the allowed ranges and keep the final price within the cap.","허용 범위의 정수를 입력하고 최종 구매가가 상한을 넘지 않도록 조정해 주세요."],["请至少选择一件商品","Select at least one product","상품을 하나 이상 선택해 주세요"],["部分商品方案未达报名要求，请调整后重试","Some offers do not qualify. Adjust them and try again.","일부 상품이 신청 조건을 충족하지 않습니다. 수정 후 다시 시도해 주세요."],["确认活动方案","Review campaign offer","캠페인 조건 확인"],["为 ","Apply for ","신청 상품: "],["报名？"," — confirm?"," — 신청할까요?"],["活动：","Campaign: ","캠페인: "],["11月1日 — 11月7日","Nov 1–7","11월 1일–7일"],["商家承担 SD 直降与 SV 商家券优惠。","The seller funds SD discounts and SV vouchers.","SD 판매자 할인과 SV 판매자 쿠폰은 판매자 부담입니다."],["这是交互演示，确认后仅在本浏览器保存。","This demo saves the result only in this browser.","확인 결과는 현재 브라우저에만 저장되는 데모입니다."],["确认方案，立即报名","Confirm offer & apply","조건 확인 후 신청"],["返回调整","Back to edit","돌아가서 수정"],["报名成功！可在「已报名」查看商品方案","Application successful! View your offers under Enrolled.","신청 완료! 신청 완료 탭에서 상품 조건을 확인하세요."],["秋日焕新 Flash Sale · 进行中","Autumn Refresh Flash Sale · Live","가을 리프레시 플래시 세일 · 진행 중"],["选择日报日期","Select report date","일일 리포트 날짜 선택"],["10月25日","Oct 25","10월 25일"],["10月24日","Oct 24","10월 24일"],["流量正在转化为订单，","Visitors are becoming buyers.","방문이 주문으로 이어지고 있어요."],["昨日表现稳步向上。","Yesterday delivered steady growth.","어제도 꾸준한 성장을 기록했어요."],["活动热度持续攀升，","Campaign momentum is building.","캠페인 관심도가 높아지고 있어요."],["核心商品贡献突出。","Your key products are leading the way.","핵심 상품이 성장을 이끌고 있어요."],["秋日焕新","Autumn Refresh","가을 리프레시"],["日报于次日 09:00 KST 更新","Daily report updates at 09:00 KST the next day","일일 리포트는 다음 날 09:00 KST에 업데이트됩니다"],["活动成交额","Campaign GMV","캠페인 거래액"],["活动支付订单","Campaign paid orders","캠페인 결제 주문"],["活动支付转化率","Campaign conversion","캠페인 결제 전환율"],["商品成交贡献","Sales by product","상품별 거래 기여도"],["GMV 占比","Share of GMV","거래액 비중"],["纯棉短袖","Cotton tee","코튼 반팔"],["通勤帆布包","Canvas tote","캔버스 토트백"],["休闲运动鞋","Casual sneakers","캐주얼 스니커즈"],["统计口径：活动归因的已支付金额，未扣除后续退款。","Basis: Campaign-attributed paid GMV, before subsequent refunds.","기준: 캠페인 기여 결제 금액이며, 이후 환불은 차감하지 않았습니다."],["经营建议","Seller insights","운영 제안"],["让畅销款保持竞争力","Keep your bestsellers competitive","인기 상품의 경쟁력을 유지하세요"],["纯棉短袖贡献 48% 活动成交额，当前库存 68 件。按昨日销量估算可售约 2.4 天，建议优先检查补货计划。","Cotton tees drove 48% of campaign GMV. With 68 units left, stock may last 2.4 days at yesterday’s pace. Prioritize replenishment.","코튼 반팔이 캠페인 거래액의 48%를 차지했습니다. 현재 재고 68개는 어제 판매 속도로 약 2.4일분입니다. 재입고 계획을 먼저 확인하세요."],["通勤帆布包的访客持续增长。建议关注商品详情页转化，并在下一次调整前核对优惠成本。","Canvas tote visits continue to grow. Monitor product-page conversion and review discount costs before making changes.","캔버스 토트백 방문자가 늘고 있습니다. 상세 페이지 전환율을 확인하고 다음 조정 전 할인 비용을 점검하세요."],["数据观察，仅供经营参考。","Insights for business reference.","운영 참고용 데이터 분석입니다."],["本期优惠方案保持不变。","Current offers remain unchanged.","현재 할인 조건은 유지됩니다."],["日报对应「秋日焕新」演示活动；新报名的「Nov Big Smile Day」将在开场后生成日报。","This daily report covers the Autumn Refresh demo. Reports for the newly enrolled 11.11 campaign will appear after launch.","가을 리프레시 데모의 일일 리포트입니다. 새로 신청한 11.11 캠페인의 리포트는 행사 시작 후 제공됩니다."],["活动已结束","Campaign ended","캠페인 종료"],["导出活动总结","Export summary","결산 내보내기"],["7 天闪购，","Seven days of Flash Sale,","7일간의 플래시 세일,"],["收获一份值得延续的增长。","growth to build on.","다음으로 이어갈 성장을 얻었어요."],["10月生活好物 Flash Sale","October Lifestyle Flash Sale","10월 라이프스타일 플래시 세일"],["报告生成：10月19日 09:00 KST","Generated: Oct 19, 09:00 KST","생성일: 10월 19일 09:00 KST"],["活动累计成交额","Total campaign GMV","캠페인 누적 거래액"],["较活动前7天","vs. the prior 7 days","행사 전 7일 대비"],["活动商品访客","Campaign product visitors","캠페인 상품 방문자"],["退款金额","Refund amount","환불 금액"],["占支付金额 3.0%","3.0% of paid GMV","결제 금액의 3.0%"],["目标完成情况","Goal progress","목표 달성 현황"],["成交目标","GMV target","거래액 목표"],["距离目标还差 ₩1,338,000。","₩1,338,000 remaining to target.","목표까지 ₩1,338,000 남았습니다."],["活动成交较前期提升，但未达到预设目标。","Sales improved, but fell short of the target.","이전 기간보다 성장했지만 설정 목표에는 미달했습니다."],["商品表现","Product performance","상품 성과"],["成交金额","Sales amount","거래 금액"],["下一场，可以做得更好","Make the next campaign stronger","다음 캠페인은 더 성공적으로"],["提前备货","Prepare stock early","미리 재고 확보"],["短袖在活动末期库存偏低，下期优先增加畅销尺码备货。","Tee stock ran low late in the campaign. Increase popular-size stock next time.","행사 후반 반팔 재고가 부족했습니다. 다음 행사에는 인기 사이즈를 더 확보하세요."],["复核优惠投入","Review discount spending","할인 비용 점검"],["成交增长不等于利润增长，报名时核对 SD 与 SV 的叠加成本。","Sales growth is not profit growth. Review combined SD and SV costs when applying.","거래액 증가가 이익 증가를 의미하지는 않습니다. 신청 시 SD와 SV의 합산 비용을 확인하세요."],["承接新一轮流量","Capture the next wave","다음 유입 기회 활용"],["Nov Big Smile Day已开放招商，3 件商品满足基础要求。","The Nov Big Smile Day is open. Three products meet the basic requirements.","Nov Big Smile Day 신청이 시작되었습니다. 상품 3개가 기본 조건을 충족합니다."],["查看下一场机会","Explore the next campaign","다음 참여 기회 보기"],["对比口径：活动期间与活动前连续7天、相同商品范围。成交额为支付口径；退款金额截至报告生成时间。此原型未提供利润测算。","Comparison: Campaign dates vs. the preceding 7 days, for the same products. GMV uses paid orders; refunds are as of report generation. Profit is not calculated in this demo.","비교 기준: 동일 상품의 행사 기간과 직전 7일. 거래액은 결제 기준이며 환불은 리포트 생성 시점 기준입니다. 이 데모는 이익을 계산하지 않습니다."],["活动总结已导出","Campaign summary exported","캠페인 결산을 내보냈습니다"],["全选商品","Select all products","모든 상품 선택"],["主导航","Main navigation","주 메뉴"],["移动端导航","Mobile navigation","모바일 메뉴"],["选择","Select ","선택 "],["确认报名","Confirm application","신청 확인"],["商家经营助手","Seller assistant","판매자 운영 도우미"],["活动总结","Campaign summary","캠페인 결산"],["全部为演示数据。","All data is simulated.","모든 데이터는 가상입니다."],["订单：","Orders: ","주문: "],["目标完成：","Goal achievement: ","목표 달성: "],["时间：","Dates: ","기간: "],["对比：活动前连续7天，相同商品范围","Comparison: Prior 7 days, same products","비교: 동일 상품의 직전 7일"],["建议：补充畅销尺码库存；复核SD与SV成本；关注下一期招商。","Suggestions: Restock popular sizes; review SD/SV costs; explore upcoming campaigns.","제안: 인기 사이즈 재입고, SD/SV 비용 검토, 다음 캠페인 확인."],["10月生活好物","October Lifestyle","10월 라이프스타일"]];
 let language=state.localeVersion===2&&['zh','en','ko'].includes(state.language)?state.language:'en';
 translations.push(['打开菜单','Open menu','메뉴 열기'],['关闭菜单','Close menu','메뉴 닫기'],['导航菜单','Navigation menu','탐색 메뉴'],['精选商品，限时增长机会。','Selected products. Limited-time opportunity.','선정 상품을 위한 한정 성장 기회.']);const orderedTranslations=translations.slice().sort((a,b)=>b[0].length-a[0].length);
@@ -82,61 +177,154 @@ function setLanguage(value){if(!['zh','en','ko'].includes(value))return;language
 
 const navs=[['home','◫','经营看板'],['sale','ϟ','活动机会'],['reports','▤','活动报告']];
 const products=[{id:'GM-10284',name:'Daily Cotton 纯棉宽松短袖',art:'👕',color:'',base:29900,price:27900,sd:10,sv:5,stock:320,max:23900},{id:'GM-10561',name:'Everyday 轻量通勤帆布包',art:'👜',color:'blue',base:24900,price:22900,sd:10,sv:5,stock:185,max:19900},{id:'GM-10892',name:'Cloud Fit 舒适休闲运动鞋',art:'👟',color:'pink',base:59900,price:54900,sd:12,sv:5,stock:96,max:46900}];
-let reportTab='daily';let page='home',saleTab='eligible',reportDay='25',selected=new Set(products.map(p=>p.id));const money=n=>'₩'+Math.round(n).toLocaleString('en-US');const finalPrice=p=>Math.round(p.price*(1-p.sd/100)*(1-p.sv/100));function save(){if(typeof activeCampaign!=='undefined'){state.campaignEnrollments=state.campaignEnrollments||{};state.campaignEnrollments[activeCampaign]=state.enrolled||[]}localStorage.setItem('esm-pocket-unified-v4',JSON.stringify(state))}function toast(s){document.getElementById('toast').innerHTML='<div class="toast">'+translate(s)+'</div>';setTimeout(()=>document.getElementById('toast').innerHTML='',3200)}
+let reportTab='daily';let page='home',saleTab='eligible',reportDay='25',selected=new Set(products.map(p=>p.id));const money=n=>'₩'+Math.round(n).toLocaleString('en-US');const finalPrice=p=>Math.round(p.price*(1-p.sd/100)*(1-p.sv/100));function save(){if(typeof activeCampaign!=='undefined'){state.campaignEnrollments=state.campaignEnrollments||{};state.campaignEnrollments[activeCampaign]=state.enrolled||[]}localStorage.setItem(activeSeller.storageKey,JSON.stringify(state))}function toast(s){document.getElementById('toast').innerHTML='<div class="toast">'+translate(s)+'</div>';setTimeout(()=>document.getElementById('toast').innerHTML='',3200)}
 function chart(){return `<svg class="chart" viewBox="0 0 600 185" role="img" aria-label="近七日成交额趋势，10月25日成交额1286400韩元"><defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c9e8cd" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>${[25,65,105,145].map((y,i)=>`<line x1="45" y1="${y}" x2="590" y2="${y}" stroke="#edf1ed"/><text x="0" y="${y+4}">${[150,100,50,0][i]}万</text>`).join('')}<path d="M50 126L135 98L220 112L305 68L390 88L475 49L575 30L575 145L50 145Z" fill="url(#area)"/><path d="M50 137L135 117L220 122L305 100L390 109L475 83L575 91" fill="none" stroke="#cbd8d1" stroke-width="2" stroke-dasharray="5 5"/><path d="M50 126L135 98L220 112L305 68L390 88L475 49L575 30" fill="none" stroke="#16815d" stroke-width="3" stroke-linejoin="round"/><circle cx="575" cy="30" r="5" fill="#16815d" stroke="white" stroke-width="3"/>${['10.19','10.20','10.21','10.22','10.23','10.24','10.25'].map((d,i)=>`<text x="${35+i*87}" y="178">${d}</text>`).join('')}</svg>`}
 function metric(label,value,change,negative=false){return `<div class="card metric"><label>${label}</label><strong>${value}</strong><span class="${negative?'down':'up'}">${change}</span></div>`}
 
 let appSection='chat',chatFilter='all',openedChat=null,kamView='overview',chatSearchOpen=false,chatSearchQuery='';
 const conversations=[{id:'sang',name:'sang***gong',initial:'S',color:'#75adfa',unread:2,time:'10:00',topic:['配送咨询','Delivery','배송 문의'],message:['您好，请问今天可以发货吗？','Hello, can this ship today?','안녕하세요, 오늘 발송 가능한가요?'],product:'Daily Cotton · ₩27,900'},{id:'min',name:'min***ho07',initial:'M',color:'#bc91ef',unread:1,time:'09:50',topic:['退换货','Returns','교환·반품'],message:['我想更换尺码，需要怎么操作？','How can I exchange this for another size?','사이즈 교환은 어떻게 하나요?'],product:'Cloud Fit · ₩54,900'},{id:'par',name:'par***ng',initial:'P',color:'#a49aee',unread:0,time:'09:30',topic:['商品咨询','Product','상품 문의'],message:['确认收到了，谢谢！','Received it, thank you!','잘 받았습니다. 감사합니다!'],product:'Everyday Tote · ₩22,900'},{id:'lee',name:'lee***j88',initial:'L',color:'#63c5ca',unread:0,time:'Yesterday',topic:['商品咨询','Product','상품 문의'],message:['这个颜色还会补货吗？','Will this color be restocked?','이 색상 재입고 예정이 있나요?'],product:'Daily Cotton · ₩27,900'}];
+conversations.unshift(
+  {id:'platform-official',initial:'G',unread:2,time:'10:15',official:true,
+    topic:['店铺沟通','Store check-in','스토어 운영 안내'],
+    message:['您好，本周店铺运营如需协助，可以在这里联系平台。','Message us here if you need help with store operations this week.','이번 주 스토어 운영에 도움이 필요하시면 이 채팅으로 문의해 주세요.'],
+    earlier:{time:'10:05',campaignId:'weekend-picks',
+      topic:['活动报名任务','Campaign enrollment task','행사 신청 할 일'],
+      message:['平台邀请您的店铺参加 Weekend Special Picks，请查看推荐商品并确认报名方案。','Your store is invited to Weekend Special Picks. Review the recommended items and enrollment plan.','Weekend Special Picks에 스토어를 초대합니다. 추천 상품과 신청 조건을 확인해 주세요.']}}
+);
+const oldPlatformIds=['platform-bd','platform-am'];
+const previousPlatformReplies=oldPlatformIds.flatMap(id=>state.chatMessages?.[id]||[]);
+if(previousPlatformReplies.length){
+  state.chatMessages['platform-official']=[...previousPlatformReplies,...(state.chatMessages['platform-official']||[])];
+  for(const id of oldPlatformIds)delete state.chatMessages[id];
+}
 function phrase(a){return a[{zh:0,en:1,ko:2}[language]]}
+function conversationType(conversation){
+  if(conversation.official)return 'platform';
+  return conversation.id==='par'?'smart':'direct';
+}
+function officialPlatformName(){return tr('平台官方运营','Platform Operations','플랫폼 공식 운영')}
+function conversationName(conversation){return conversation.official?officialPlatformName():conversation.name}
+function conversationSource(conversation){
+  if(conversation.official)return tr('官方','Official','공식');
+  return conversationType(conversation)==='smart'?tr('智能聊天','Smart chat','스마트챗'):tr('人工咨询','Direct chat','직접상담');
+}
+function conversationContext(conversation){
+  if(!conversation.official){
+    return '<div class="chat-product"><span class="icon">▣</span><div><b>'+conversation.product+'</b><p>'+tr('关联商品 · 演示','Linked product · Demo','관련 상품 · 데모')+'</p></div></div>';
+  }
+  return '<div class="chat-product platform-chat-context"><span class="icon" aria-hidden="true">G</span><div><b>'+officialPlatformName()+'</b><p>'+phrase(conversation.topic)+'</p></div></div>';
+}
+function platformConversationTask(conversation){
+  const campaign=campaignList.find(item=>item.id===conversation.campaignId);
+  if(!campaign)return '';
+  return `<article class="card system-message"><span class="pill">${phrase(conversation.topic)}</span><h3>${campaign.name}</h3><p class="muted">${campaign.dates}</p><button class="btn" onclick="switchCampaign('${campaign.id}')">${tr('查看活动任务','View campaign task','행사 할 일 보기')} ↗</button></article>`;
+}
 function escapeChat(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function chatHistory(id){return state.chatMessages?.[id]||[]}
-function unreadChat(c){return (state.readChats||[]).includes(c.id)?0:c.unread}
-function appNav(){const total=conversations.reduce((n,c)=>n+unreadChat(c),0)+(!state.systemChatSeen?1:0);return '<nav class="unified-nav" aria-label="'+tr('App主导航','App navigation','앱 메뉴')+'">'+[['chat','chat',tr('聊天','Chats','상담')],['dashboard','dashboard',tr('看板','Dashboard','대시보드')],['menu','menu',tr('菜单','Menu','메뉴')],['my','person','My']].map(([id,icon,label])=>'<button class="'+(appSection===id?'active':'')+'" onclick="switchAppSection(\''+id+'\')" '+(appSection===id?'aria-current="page"':'')+'><span class="nav-symbol">'+appIcon(icon)+(id==='chat'&&total?'<i>'+total+'</i>':'')+'</span><span>'+label+'</span></button>').join('')+'</nav>'}
+function unreadChat(conversation){
+  const read=state.readChats||[];
+  if(read.includes(conversation.id))return 0;
+  return conversation.official?oldPlatformIds.filter(id=>!read.includes(id)).length:conversation.unread;
+}
+function conversationMessages(conversation){
+  const messages=conversation.earlier?[conversation.earlier,conversation]:[conversation];
+  return messages.map(message=>'<div class="message-bubble incoming'+(conversation.official?' platform-incoming':'')+'">'+
+    escapeChat(phrase(message.message))+'<small>'+message.time+'</small></div>'+platformConversationTask(message)).join('');
+}
+function appNav(){const total=conversations.reduce((n,c)=>n+unreadChat(c),0);return '<nav class="unified-nav" aria-label="'+tr('App主导航','App navigation','앱 메뉴')+'">'+[['chat','chat',tr('聊天','Chats','상담')],['tasks','spark',tr('任务','Tasks','할 일')],['operation','dashboard',tr('运营','Operations','운영')],['my','person','My']].map(([id,icon,label])=>'<button class="'+(appSection===id?'active':'')+'" onclick="switchAppSection(\''+id+'\')" '+(appSection===id?'aria-current="page"':'')+'><span class="nav-symbol">'+appIcon(icon)+(id==='chat'&&total?'<i>'+total+'</i>':'')+'</span><span>'+label+'</span></button>').join('')+'</nav>'}
 function appIcon(kind){const paths={dashboard:'<rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 15v-3m4 3V8m4 7v-5"/>',menu:'<rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/>',chat:'<path d="M20 11a8 8 0 0 1-8 8H5l-3 3V11a9 9 0 0 1 18 0Z"/><path d="M7 10h8M7 14h5"/>',spark:'<rect x="4" y="5" width="16" height="15" rx="5"/><path d="M12 2v3M8 11h1M15 11h1M9 16h6"/>',person:'<circle cx="12" cy="7" r="4"/><path d="M4 22v-3a8 8 0 0 1 16 0v3"/>'};return '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+paths[kind]+'</svg>'}
-function switchAppSection(id){if(!['chat','dashboard','menu','my'].includes(id))return;closeMenu();closeModal();appSection=id;openedChat=null;systemChatOpen=false;if(id==='menu')page='menu';render();window.scrollTo({top:0,behavior:'smooth'})}
+function switchAppSection(id){if(!['chat','tasks','operation','my'].includes(id))return;closeMenu();closeModal();appSection=id;openedChat=null;systemChatOpen=false;if(id==='operation')page='operation';if(id==='tasks'){systemChatOpen=true;taskStatusFilter='pending'}render();window.scrollTo({top:0,behavior:'smooth'})}
 function openConversation(id){if(!conversations.some(c=>c.id===id))return;openedChat=id;state.readChats=[...new Set([...(state.readChats||[]),id])];save();render()}
 
 function applyChatSearch(event){event.preventDefault();chatSearchQuery=document.getElementById('chat-search-query').value.trim();render()}
-function chatCenterHeader(){const count=conversations.filter(c=>c.id!=='par').length;return '<div class="chat-center-top"><b class="chat-center-title">'+tr('咨询','Chats','상담')+'</b><details class="chat-store-picker"><summary><span class="gmark">G</span><span>오늘 · Lifestyle</span><span class="store-chevron">⌄</span><i>N</i></summary><div><b>오늘 · Lifestyle</b><small>'+tr('当前关联店铺','Current linked store','연결된 스토어')+'</small></div></details><button class="chat-search-button" aria-label="'+tr('搜索会话','Search conversations','대화 검색')+'" onclick="chatSearchOpen=!chatSearchOpen;render()"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button></div><div class="chat-center-tabs" role="group" aria-label="'+tr('咨询类型','Chat type','상담 유형')+'">'+[['all',tr('全部','All','전체')],['direct',tr('人工咨询','Direct chats','직접상담')+' <em>'+count+'</em>'],['smart',tr('智能聊天','Smart chat','스마트챗')+' <i>Beta</i>']].map(([id,label])=>'<button class="'+(chatFilter===id?'active':'')+'" aria-pressed="'+(chatFilter===id)+'" onclick="chatFilter=\''+id+'\';systemChatOpen=false;render()">'+label+'</button>').join('')+'</div>'+(chatSearchOpen?'<form class="chat-search-form" onsubmit="applyChatSearch(event)"><input id="chat-search-query" aria-label="'+tr('搜索姓名或消息','Search names or messages','이름 또는 메시지 검색')+'" placeholder="'+tr('搜索姓名或消息','Search names or messages','이름 또는 메시지 검색')+'" value="'+escapeChat(chatSearchQuery)+'"><button type="submit">'+tr('搜索','Search','검색')+'</button>'+(chatSearchQuery?'<button type="button" onclick="chatSearchQuery=\'\';render()">×</button>':'')+'</form>':'')+'<details class="chat-system-notice"><summary><span>⚑</span>'+tr('系统例行维护与更新通知','System maintenance & update notice','시스템 정기 점검 및 업데이트 안내')+'<span class="notice-chevron">⌄</span></summary><p>'+tr('演示公告：维护时间及服务变更将由平台在此通知。','Demo notice: platform maintenance times and service updates will appear here.','데모 공지: 정기 점검 일정 및 서비스 변경 사항을 안내합니다.')+'</p></details>'}
-function chatPage(){if(systemChatOpen)return systemChatPage();if(openedChat)return conversationPage();const list=conversations.filter(c=>(chatFilter==='all'||chatFilter==='direct'&&c.id!=='par'||chatFilter==='smart'&&c.id==='par')&&(!chatSearchQuery||(c.name+' '+phrase(c.message)+' '+(chatHistory(c.id).at(-1)?.text||'')).toLowerCase().includes(chatSearchQuery.toLowerCase())));return chatCenterHeader()+(chatFilter==='all'&&!chatSearchQuery?systemChatRow():'')+'<div class="conversation-list">'+(list.length?list.map(c=>{const last=chatHistory(c.id).at(-1);return '<button class="conversation-row" onclick="openConversation(\''+c.id+'\')"><span class="customer-avatar" style="background:'+c.color+'">'+c.initial+'</span><span class="conversation-copy"><span class="conversation-title"><span><b>'+c.name+'</b> <span class="conversation-source">'+(c.id==='par'?tr('智能聊天','Smart chat','스마트챗'):tr('人工咨询','Direct chat','직접상담'))+'</span></span><small>'+c.time+'</small></span><span class="conversation-preview">'+escapeChat(last?last.text:phrase(c.message))+'</span><span class="chat-topic">'+phrase(c.topic)+'</span></span>'+(unreadChat(c)?'<span class="unread-chat">'+unreadChat(c)+'</span>':'')+'</button>'}).join(''):'<div class="empty"><h3>'+tr('暂无会话','No conversations here','표시할 대화가 없어요')+'</h3></div>')+'</div><p class="demo">'+tr('咨询演示，未连接真实消费者或智能聊天服务。','Chat demo. No real customer or Smart Chat service is connected.','상담 데모이며 실제 고객 및 스마트챗 서비스와 연동되지 않습니다.')+'</p>'}
-function conversationPage(){const c=conversations.find(x=>x.id===openedChat);return '<button class="text-btn" onclick="openedChat=null;render()">← '+tr('返回会话','Back to inbox','목록으로')+'</button><div class="chat-product"><span class="icon">▣</span><div><b>'+c.product+'</b><p>'+tr('关联商品 · 演示','Linked product · Demo','관련 상품 · 데모')+'</p></div></div><div class="message-thread"><div class="thread-date">NOV 04 · KST</div><div class="message-bubble incoming">'+escapeChat(phrase(c.message))+'<small>'+c.time+'</small></div>'+chatHistory(c.id).map(m=>'<div class="message-bubble outgoing">'+escapeChat(m.text)+'<small>'+tr('本地演示回复','Local demo reply','로컬 데모 답변')+'</small></div>').join('')+'</div><form class="chat-compose" onsubmit="sendChatReply(event)"><label class="sr-only" for="reply-input">'+tr('回复内容','Reply','답변')+'</label><input id="reply-input" required maxlength="1000" autocomplete="off" placeholder="'+tr('输入回复（演示）','Write a reply (demo)','답변 입력 (데모)')+'"><button class="btn" type="submit">'+tr('发送','Send','보내기')+'</button></form><p class="demo">'+tr('只演示会话体验，不发送给真实消费者。','Demo only. No real customer receives this message.','데모 전용입니다. 실제 고객에게 전송되지 않습니다.')+'</p>'}
+function chatCenterHeader(){
+  const count=conversations.filter(c=>conversationType(c)==='direct').length;
+  const tabs=[
+    ['all',tr('全部','All','전체')],
+    ['direct',tr('人工咨询','Direct chats','직접상담')+' <em>'+count+'</em>'],
+    ['smart',tr('智能聊天','Smart chat','스마트챗')+' <i>Beta</i>'],
+    ['platform',officialPlatformName()]
+  ];
+  return '<div class="chat-center-tabs" role="group" aria-label="'+tr('咨询类型','Chat type','상담 유형')+'">'+
+    tabs.map(([id,label])=>'<button class="'+(chatFilter===id?'active':'')+'" aria-pressed="'+(chatFilter===id)+'" onclick="chatFilter=\''+id+'\';systemChatOpen=false;render()">'+label+'</button>').join('')+'</div>'+
+    '<form class="chat-search-form chat-local-search" role="search" onsubmit="applyChatSearch(event)">'+
+      '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>'+
+      '<input id="chat-search-query" type="text" oninput="if(!event.isComposing)filterChatSearch(this.value)" oncompositionend="filterChatSearch(this.value)" aria-label="'+tr('搜索聊天姓名或消息','Search chat names or messages','채팅 이름 또는 메시지 검색')+'" placeholder="'+tr('搜索聊天姓名或消息','Search chat names or messages','채팅 이름 또는 메시지 검색')+'" value="'+escapeChat(chatSearchQuery)+'">'+
+      
+      (chatSearchQuery?'<button type="button" aria-label="'+tr('清除搜索','Clear search','검색 지우기')+'" onclick="chatSearchQuery=\'\';render()">×</button>':'')+
+    '</form>';
+}
+function chatPage(){if(openedChat)return conversationPage();const list=conversations.filter(c=>(chatFilter==='all'||chatFilter===conversationType(c))&&(!chatSearchQuery||(conversationName(c)+' '+phrase(c.topic)+' '+conversationSource(c)+' '+phrase(c.message)+' '+(c.earlier?phrase(c.earlier.message):'')+' '+(chatHistory(c.id).at(-1)?.text||'')).toLowerCase().includes(chatSearchQuery.toLowerCase())));return chatCenterHeader()+'<div class="conversation-list">'+(list.length?list.map(c=>{const last=chatHistory(c.id).at(-1);return '<button class="conversation-row'+(c.official?' platform-conversation':'')+'" onclick="openConversation(\''+c.id+'\')"><span class="customer-avatar" '+(c.official?'':'style="background:'+c.color+'"')+'>'+c.initial+'</span><span class="conversation-copy"><span class="conversation-title"><span><b>'+conversationName(c)+'</b> <span class="'+(c.official?'official-chat-badge':'conversation-source')+'">'+conversationSource(c)+'</span></span><small>'+c.time+'</small></span><span class="conversation-preview">'+escapeChat(last?last.text:phrase(c.message))+'</span><span class="chat-topic">'+phrase(c.topic)+'</span></span>'+(unreadChat(c)?'<span class="unread-chat">'+unreadChat(c)+'</span>':'')+'</button>'}).join(''):'<div class="empty"><h3>'+tr('暂无会话','No conversations here','표시할 대화가 없어요')+'</h3></div>')+'</div><p class="demo">'+tr('咨询演示，未连接真实消费者或智能聊天服务。','Chat demo. No real customer or Smart Chat service is connected.','상담 데모이며 실제 고객 및 스마트챗 서비스와 연동되지 않습니다.')+'</p>'}
+function conversationPage(){const c=conversations.find(x=>x.id===openedChat);return '<button class="text-btn" onclick="openedChat=null;render()">← '+tr('返回会话','Back to inbox','목록으로')+'</button>'+conversationContext(c)+'<div class="message-thread"><div class="thread-date">NOV 04 · KST</div>'+conversationMessages(c)+chatHistory(c.id).map(m=>'<div class="message-bubble outgoing">'+escapeChat(m.text)+'<small>'+tr('本地演示回复','Local demo reply','로컬 데모 답변')+'</small></div>').join('')+'</div><form class="chat-compose" onsubmit="sendChatReply(event)"><label class="sr-only" for="reply-input">'+tr('回复内容','Reply','답변')+'</label><input id="reply-input" required maxlength="1000" autocomplete="off" placeholder="'+tr('输入回复（演示）','Write a reply (demo)','답변 입력 (데모)')+'"><button class="btn" type="submit">'+tr('发送','Send','보내기')+'</button></form><p class="demo">'+tr('回复仅保存在当前浏览器，用于演示。','Demo replies are saved in this browser.','데모 답변은 이 브라우저에만 저장됩니다.')+'</p>'}
 function sendChatReply(event){event.preventDefault();const input=document.getElementById('reply-input');const text=input.value.trim();if(!text||!openedChat)return;state.chatMessages=state.chatMessages||{};(state.chatMessages[openedChat]=state.chatMessages[openedChat]||[]).push({text});save();render()}
 function kamWorkspace(){return home()}
 function togglePreference(key,value){state.preferences=state.preferences||{};state.preferences[key]=value;save();toast(tr('已保存偏好（本地演示）','Preference saved locally (demo)','설정 저장 완료 (로컬 데모)'))}
-function settingsPage(){const prefs=state.preferences||{};return '<div class="profile-card"><div class="profile-avatar">O.</div><div><h2>오늘 · Lifestyle</h2><p>Gmarket Seller · GM-10284</p><span class="pill">'+tr('账号已关联','Account linked','계정 연결 완료')+'</span></div></div><div class="settings-group"><h3>'+tr('店铺与账号','Store & account','스토어 및 계정')+'</h3><button class="settings-row" onclick="showMyInfo()"><span>'+tr('关联店铺与账号信息','Linked store & account','연결 스토어 및 계정')+'</span><span>오늘 ↗</span></button><div class="settings-row"><label for="my-language">'+tr('语言','Language','언어')+'</label><select id="my-language" onchange="setLanguage(this.value)"><option value="en" '+(language==='en'?'selected':'')+'>English</option><option value="ko" '+(language==='ko'?'selected':'')+'>한국어</option><option value="zh" '+(language==='zh'?'selected':'')+'>中文</option></select></div></div><div class="settings-group"><h3>'+tr('消息与助手偏好','Messaging & assistant','메시지 및 도우미')+'</h3>'+[['chatAlerts',tr('消费者咨询提醒','Customer chat alerts','고객 상담 알림')],['kamReminders',tr('G니 经营任务提醒','G니 task reminders','G니 운영 할 일 알림')]].map(([key,label])=>'<label class="settings-row"><span>'+label+'</span><input class="setting-switch" type="checkbox" '+(prefs[key]!==false?'checked':'')+' onchange="togglePreference(\''+key+'\',this.checked)"></label>').join('')+'<p class="settings-note">'+tr('偏好仅用于演示，尚未接入实际推送服务。','Preferences are local demo settings; push delivery is not connected.','로컬 데모 설정이며 실제 푸시는 연동되지 않았습니다.')+'</p></div><div class="settings-group"><h3>'+tr('服务信息','Service information','서비스 정보')+'</h3><div class="settings-row"><span>'+tr('版本','Version','버전')+'</span><span>Unified app · Prototype 04</span></div></div><p class="demo">'+tr('聊天负责客户沟通，G니负责经营任务，My负责店铺与个人设置。','Chats for customers. G니 for your business. My for your preferences.','고객 소통은 상담, 운영은 G니, 설정은 My에서.')+'</p>'}
-function showMyInfo(){document.getElementById('overlay').innerHTML='<div class="modal-back" role="dialog" aria-modal="true" aria-label="Account"><div class="modal"><h2>'+tr('关联店铺','Linked store','연결 스토어')+'</h2><p>오늘 · Lifestyle<br>Gmarket · GM-10284</p><div class="notice">'+tr('当前展示演示账号，正式版可在此管理账号关联与权限。','This is a demo account. Production can manage account links and permissions here.','데모 계정입니다. 정식 버전에서는 계정 연결과 권한을 관리합니다.')+'</div><button class="btn" onclick="closeModal()">'+tr('关闭','Close','닫기')+'</button></div></div>';localize();document.querySelector('.modal .btn').focus()}
+function settingsPage(){const prefs=state.preferences||{};return '<div class="profile-card"><div class="profile-avatar">'+activeSeller.avatar+'</div><div><h2>'+activeSeller.name+'</h2><p>Gmarket Seller · '+activeSeller.id+'</p><span class="pill">'+tr('账号已关联','Account linked','계정 연결 완료')+'</span></div></div><div class="settings-group"><h3>'+tr('店铺与账号','Store & account','스토어 및 계정')+'</h3><button class="settings-row" onclick="showMyInfo()"><span>'+tr('关联店铺与账号信息','Linked store & account','연결 스토어 및 계정')+'</span><span>'+activeSeller.name+' ↗</span></button><button class="settings-row" aria-haspopup="dialog" onclick="openSellerSwitcher()"><span>'+tr('切换 Seller ID','Switch Seller ID','판매자 ID 전환')+'</span><span>'+activeSeller.id+' ›</span></button><div class="settings-row"><label for="my-language">'+tr('语言','Language','언어')+'</label><select id="my-language" onchange="setLanguage(this.value)"><option value="en" '+(language==='en'?'selected':'')+'>English</option><option value="ko" '+(language==='ko'?'selected':'')+'>한국어</option><option value="zh" '+(language==='zh'?'selected':'')+'>中文</option></select></div></div><div class="settings-group"><h3>'+tr('消息与助手偏好','Messaging & assistant','메시지 및 도우미')+'</h3>'+[['chatAlerts',tr('消费者咨询提醒','Customer chat alerts','고객 상담 알림')]].map(([key,label])=>'<label class="settings-row"><span>'+label+'</span><input class="setting-switch" type="checkbox" '+(prefs[key]!==false?'checked':'')+' onchange="togglePreference(\''+key+'\',this.checked)"></label>').join('')+taskReminderSetting()+'<p class="settings-note">'+tr('偏好仅用于演示，尚未接入实际推送服务。','Preferences are local demo settings; push delivery is not connected.','로컬 데모 설정이며 실제 푸시는 연동되지 않았습니다.')+'</p></div><div class="settings-group"><h3>'+tr('服务信息','Service information','서비스 정보')+'</h3><div class="settings-row"><span>'+tr('版本','Version','버전')+'</span><span>Unified app · Prototype 04</span></div></div><p class="demo">'+tr('Chats 客户沟通 · Tasks AI 助手 · Operation 运营管理 · My 设置','Chats · Tasks · Operations · My','상담 · 할 일 · 운영 · My')+'</p>'}
+function showMyInfo(){document.getElementById('overlay').innerHTML='<div class="modal-back" role="dialog" aria-modal="true" aria-label="Account"><div class="modal"><h2>'+tr('关联店铺','Linked store','연결 스토어')+'</h2><p>'+activeSeller.name+'<br>Gmarket · '+activeSeller.id+'</p><div class="notice">'+tr('当前展示演示账号，正式版可在此管理账号关联与权限。','This is a demo account. Production can manage account links and permissions here.','데모 계정입니다. 정식 버전에서는 계정 연결과 권한을 관리합니다.')+'</div><button class="btn" onclick="closeModal()">'+tr('关闭','Close','닫기')+'</button></div></div>';localize();document.querySelector('.modal .btn').focus()}
 
 function closeMenu(){}
 function go(target){
-  appSection='menu';menuSection='campaign';
+  appSection='operation';menuSection='campaign';
   if(target==='daily'||target==='summary'){reportTab=target;target='reports'}
   page=target;render();window.scrollTo({top:0,behavior:'smooth'});
 }
+function notificationPermission(){
+  return globalThis.isSecureContext===false||typeof Notification==='undefined'||typeof Notification.requestPermission!=='function'?'unavailable':Notification.permission;
+}
+function taskReminderSetting(){
+  const permission=notificationPermission();
+  const enabled=permission==='granted'&&state.preferences?.kamReminders===true;
+  const descriptions={
+    granted:tr('已授权设备通知','Device notifications allowed','기기 알림 허용됨'),
+    default:tr('开启后将请求通知授权','Turn on to allow device notifications','켜면 기기 알림 권한을 요청합니다'),
+    denied:tr('通知已被阻止，请在浏览器设置中允许','Notifications blocked. Allow them in browser settings.','브라우저 설정에서 알림을 허용하세요'),
+    unavailable:tr('当前环境不支持通知授权','Notification permission is unavailable here','현재 환경에서는 알림 권한을 요청할 수 없습니다')
+  };
+  return `<label class="settings-row reminder-setting"><span>${tr('G니 任务提醒','G니 task reminders','G니 할 일 알림')}<small>${descriptions[permission]}</small></span>
+    <input class="setting-switch" type="checkbox" ${enabled?'checked':''} ${permission==='unavailable'||permission==='denied'?'disabled':''} onchange="setTaskReminder(this)"></label>`;
+}
+async function setTaskReminder(input){
+  const sellerState=state;
+  let permission=notificationPermission();
+  if(input.checked&&permission==='default'){
+    input.disabled=true;
+    try{permission=await Notification.requestPermission()}catch{permission='unavailable'}
+  }
+  if(state!==sellerState)return;
+  togglePreference('kamReminders',input.checked&&permission==='granted');
+  if(appSection==='my'){
+    render();
+    document.querySelector('.reminder-setting input')?.focus({preventScroll:true});
+  }
+}
 function render(){
-  document.body.className=appSection==='chat'&&!openedChat&&!systemChatOpen?'chat-center-view':'app-'+appSection;
+  document.body.className=appSection==='chat'&&!openedChat?'chat-center-view':'app-'+appSection;
   let content;
-  if(appSection==='chat')content=chatPage();
+  if(appSection==='chat'){
+    const title=openedChat?conversationName(conversations.find(c=>c.id===openedChat)):tr('聊天','Chats','상담');
+    content=managementHeader(title)+chatPage();
+  }
   if(appSection==='my')content=managementHeader('My')+settingsPage();
-  if(appSection==='dashboard')content=managementHeader(tr('看板','Dashboard','대시보드'))+dashboardPage();
-  if(appSection==='menu')content=managementHeader('',menuPicker())+managementPage();
+  if(appSection==='tasks')content=managementHeader(tr('任务','Tasks','할 일'))+taskCenterPage();
+  if(appSection==='operation')content=page==='operation'?managementHeader('Operations')+operationHome():page==='insights'?managementHeader('Operations')+'<button class="text-btn" onclick="page=\'operation\';render()">← '+tr('运营首页','Operations home','운영 홈')+'</button>'+dashboardPage():managementHeader('',menuPicker())+'<button class="text-btn" onclick="page=\'operation\';render()">← '+tr('运营首页','Operations home','운영 홈')+'</button>'+managementPage();
   document.getElementById('content').innerHTML=content;
   document.getElementById('app-navigation').innerHTML=appNav();localize();
 }
 const tr=(zh,en,ko)=>({zh,en,ko}[language]);
 let dashboardRange='today',taskCategory='campaign';
 const dashboardData={
- today:{gmv:864200,orders:58,visitors:1657,conversion:'3.50%',deltas:['12.4%','16.0%','9.2%','0.20'],dates:'2026.10.27 · 00:00–14:00 KST',labels:['00','02','04','06','08','10','12','14'],values:[12,8,4,18,58,96,171,213],previous:[8,5,6,15,42,83,150,192]},
- week:{gmv:8346500,orders:563,visitors:16272,conversion:'3.46%',deltas:['18.6%','12.0%','8.3%','0.11'],dates:'2026.10.20–10.26 · KST',labels:['10.20','10.21','10.22','10.23','10.24','10.25','10.26'],values:[930,1040,1120,1080,1370,1286,1520],previous:[820,900,920,980,1060,1100,1257]},
- month:{gmv:32680000,orders:2184,visitors:64808,conversion:'3.37%',deltas:['22.8%','19.6%','15.4%','0.12'],dates:'2026.09.27–10.26 · KST',labels:['09.27','10.02','10.07','10.12','10.17','10.22','10.26'],values:[780,865,940,1040,1190,1275,1410],previous:[690,710,820,875,920,1020,1150]}
+ today:{gmv:864200,orders:58,impressions:12460,conversion:'3.50%',deltas:['12.4%','16.0%','9.2%','0.20'],dates:'2026.10.27 · 00:00–14:00 KST',labels:['00','02','04','06','08','10','12','14'],values:[12,8,4,18,58,96,171,213],previous:[8,5,6,15,42,83,150,192]},
+ week:{gmv:8346500,orders:563,impressions:128540,conversion:'3.46%',deltas:['18.6%','12.0%','8.3%','0.11'],dates:'2026.10.20–10.26 · KST',labels:['10.20','10.21','10.22','10.23','10.24','10.25','10.26'],values:[930,1040,1120,1080,1370,1286,1520],previous:[820,900,920,980,1060,1100,1257]},
+ month:{gmv:32680000,orders:2184,impressions:514230,conversion:'3.37%',deltas:['22.8%','19.6%','15.4%','0.12'],dates:'2026.09.27–10.26 · KST',labels:['09.27','10.02','10.07','10.12','10.17','10.22','10.26'],values:[780,865,940,1040,1190,1275,1410],previous:[690,710,820,875,920,1020,1150]}
 };
 function setDashboardRange(value){if(!dashboardData[value])return;dashboardRange=value;render()}
-function rangeLabel(){return dashboardRange==='today'?tr('今日','Today','오늘'):dashboardRange==='week'?tr('近7天','Last 7 days','최근 7일'):tr('近1个月','Last month','최근 1개월')}
+function rangeLabel(){return dashboardRange==='today'?tr('今日','Today','오늘'):dashboardRange==='week'?tr('近7天','Last 7 days','최근 7일'):tr('近30天','Last 30 days','최근 30일')}
 function comparisonLabel(){return dashboardRange==='today'?tr('较昨日同时段','vs. yesterday at 14:00','어제 14시 기준 대비'):dashboardRange==='week'?tr('较此前7天','vs. prior 7 days','이전 7일 대비'):tr('较此前30天','vs. prior 30 days','이전 30일 대비')}
 function dashboardChart(){const d=dashboardData[dashboardRange],max=Math.max(...d.values,...d.previous)*1.15;const pts=a=>a.map((v,i)=>[42+i*310/(a.length-1),145-v/max*117]);const current=pts(d.values),previous=pts(d.previous);const path=a=>a.map(([x,y],i)=>(i?'L':'M')+x.toFixed(1)+' '+y.toFixed(1)).join(' ');return '<svg class="dashboard-chart" viewBox="0 0 370 180" role="img" aria-label="'+tr('成交额趋势','GMV trend','거래액 추이')+'"><defs><linearGradient id="dashboard-fill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9dec6" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>'+[0,1,2,3].map(i=>{const y=28+i*39;return '<line x1="42" y1="'+y+'" x2="352" y2="'+y+'" stroke="#e7eee9"/><text x="0" y="'+(y+3)+'">'+Math.round(max*(3-i)/3)+'k</text>'}).join('')+'<path d="'+path(current)+' L352 145 L42 145Z" fill="url(#dashboard-fill)"/><path d="'+path(previous)+'" fill="none" stroke="#b9c9bf" stroke-width="2" stroke-dasharray="4 4"/><path d="'+path(current)+'" fill="none" stroke="#087558" stroke-width="2.5" stroke-linejoin="round"/>'+d.labels.map((label,i)=>'<text text-anchor="middle" x="'+(42+i*310/(d.labels.length-1))+'" y="170">'+label+'</text>').join('')+'</svg>'}
 
 let activeCampaign='big-smile';if(state.campaignEnrollments)state.enrolled=state.campaignEnrollments['big-smile']||[];
 const campaignList=[{id:'big-smile',name:'Nov Big Smile Day',dates:'2026.11.01 — 11.07',deadline:'10.29',deadlineFull:'10.29 · 18:00 KST',from:'11月1日',to:'11月7日',forecast:'+7,000',orders:'+72'},{id:'weekend-picks',name:'Weekend Special Picks',dates:'2026.11.06 — 11.08',deadline:'11.02',deadlineFull:'11.02 · 18:00 KST',from:'11月6日',to:'11月8日',forecast:'+3,500',orders:'+36'}];
+const defaultCampaignOffers=[{price:27900,sd:10,sv:5},{price:22900,sd:10,sv:5},{price:54900,sd:12,sv:5}];
 function campaignEnrollment(id){return id===activeCampaign?(state.enrolled||[]):(state.campaignEnrollments?.[id]||[])}
 
 function switchCampaign(id){
@@ -148,10 +336,10 @@ function switchCampaign(id){
   activeCampaign=id;
   state.enrolled=state.campaignEnrollments[id]||[];
   const saved=state.campaignOffers?.[id];
-  const defaults=[{price:27900,sd:10,sv:5},{price:22900,sd:10,sv:5},{price:54900,sd:12,sv:5}];
+  
   for(const [i,p] of products.entries()){
     const item=inventoryItem(p.id);
-    Object.assign(p,saved?.[i]||defaults[i],{base:item.price,stock:item.stock});
+    Object.assign(p,saved?.[i]||defaultCampaignOffers[i],{base:item.price,stock:item.stock});
   }
   selected=new Set(products.filter(canRecommend).map(p=>p.id));
   aiProductView=false;
@@ -182,7 +370,7 @@ function campaignTracking(){const c=campaignList.find(c=>c.id===activeCampaign),
 
 
 let menuSection='order', systemChatOpen=false, dashboardSection='business';
-let orderFilter='all', itemQuery='', onlyOutOfStock=false, editingItem=null;
+let orderFilter='pending', itemQuery='', onlyOutOfStock=false, editingItem=null;
 const demoOrders=[
   {id:'261109-081',buyer:'sang***gong',item:'Daily Cotton',total:29900,status:'pending'},
   {id:'261109-067',buyer:'min***ho07',item:'Cloud Fit',total:54900,status:'shipping'},
@@ -217,19 +405,61 @@ campaignList.push(
 
 
 const demoEnrollmentIds={'autumn-home':'GM-10284','gift-preview':'GM-10561'};
-state.campaignEnrollments=state.campaignEnrollments||{};
-for(const [id,itemId] of Object.entries(demoEnrollmentIds)){
-  if(!Object.hasOwn(state.campaignEnrollments,id)){
-    state.campaignEnrollments[id]=[{...products.find(p=>p.id===itemId)}];
+function seedDemoEnrollments(){
+  state.campaignEnrollments=state.campaignEnrollments||{};
+  for(const [id,itemId] of Object.entries(demoEnrollmentIds)){
+    if(!Object.hasOwn(state.campaignEnrollments,id)){
+      const product=products.find(p=>p.id===itemId);
+      state.campaignEnrollments[id]=[{...product,...defaultCampaignOffers[products.indexOf(product)]}];
+    }
   }
+}
+seedDemoEnrollments();
+
+function openSellerSwitcher(){
+  const title=tr('切换 Seller ID','Switch Seller ID','판매자 ID 전환');
+  document.getElementById('overlay').innerHTML=`<div class="modal-back" role="dialog" aria-modal="true" aria-labelledby="seller-switch-title"><div class="modal seller-switch-dialog">
+    <h2 id="seller-switch-title">${title}</h2>
+    ${sellerAccounts.map(seller=>`<button class="settings-row" onclick="switchSeller('${seller.id}')"${seller===activeSeller?' aria-current="true"':''}>
+      <span><b>${seller.name}</b><small>${seller.id}</small></span><span>${seller===activeSeller?tr('当前','Current','현재'):'›'}</span>
+    </button>`).join('')}
+    <button class="btn secondary" onclick="closeModal()">${tr('取消','Cancel','취소')}</button></div></div>`;
+  document.querySelector('.seller-switch-dialog [aria-current]').focus();
+}
+function switchSeller(id){
+  const seller=sellerAccounts.find(account=>account.id===id);
+  if(!seller||seller===activeSeller){closeModal();return}
+  if(appSection==='operation'&&page==='campaign-detail'){
+    state.campaignOffers={...state.campaignOffers,[activeCampaign]:products.map(product=>({...product}))};
+  }
+  save();
+  activeSeller=seller;
+  state=loadSellerState(seller);
+  state.language=language;state.localeVersion=2;
+  activeCampaign='big-smile';
+  state.enrolled=state.campaignEnrollments?.[activeCampaign]||state.enrolled||[];
+  seedDemoEnrollments();
+  chatFilter='all';chatSearchQuery='';
+  itemQuery='';editingItem=null;onlyOutOfStock=false;stockAlertsOnly=false;orderFilter='pending';
+  localStorage.setItem('esm-pocket-seller-id',id);
+  save();switchAppSection(appSection);
+  document.getElementById('header-seller-switch')?.focus();
 }
 
 function managementHeader(title,leading){
   const heading=leading||'<b class="chat-center-title">'+title+'</b>';
-  return '<div class="chat-center-top shared-store-top">'+heading+'<span class="management-store"><span class="gmark">G</span> 오늘 · Lifestyle</span></div>';
+  const unread=platformNotices().filter(notice=>!(state.readPlatformNotices||[]).includes(notice.id)).length;
+  return `<header class="app-topbar">${heading}
+    <button id="header-seller-switch" class="seller-switch-trigger" type="button" aria-haspopup="dialog" aria-label="${tr('切换 Seller ID','Switch Seller ID','판매자 ID 전환')} · ${activeSeller.name}" onclick="openSellerSwitcher()"><span class="gmark" aria-hidden="true">G</span><span class="seller-name">${activeSeller.name}</span><span aria-hidden="true">⌄</span></button>
+    <button id="app-notification-bell" class="app-bell" onclick="openAppNotifications()" aria-label="${tr('平台通知中心','Platform Notification Center','플랫폼 알림 센터')} · ${unread} ${tr('未读','unread','읽지 않음')}">
+      <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Z"/><path d="M10 21h4"/></svg>
+      ${unread?'<span class="app-bell-badge">'+unread+'</span>':''}
+    </button>
+  </header>`;
 }
 function selectMenu(section){
-  menuSection=section;page='menu';appSection='menu';render();
+  if(section==='order')orderFilter='pending';
+  menuSection=section;page='menu';appSection='operation';render();
   window.scrollTo({top:0,behavior:'smooth'});
 }
 function menuPicker(){
@@ -244,7 +474,7 @@ function menuPicker(){
 }
 function managementPage(){
   if(menuSection==='order')return orderPage();
-  if(menuSection==='item')return itemPage();
+  if(menuSection==='item')return (stockAlertsOnly?'<p class="stock-warning-filter">'+tr('正在查看库存预警商品','Showing low-stock alerts','재고 경고 상품 표시 중')+' <button class="text-btn" onclick="stockAlertsOnly=false;render()">'+tr('查看全部','Show all','전체 보기')+'</button></p>':'')+itemPage();
   if(page==='campaign-detail'||page==='sale'||page==='tracking')return campaignDetailPage();
   if(page==='reports')return '<button class="text-btn" onclick="selectMenu(\'campaign\')">← '+tr('活动列表','Campaigns','행사 목록')+'</button>'+reports();
   return campaignManagement();
@@ -253,30 +483,147 @@ function managementPage(){
 function systemChatRow(){
   return '<button class="conversation-row system-chat-row" onclick="openSystemChat()"><span class="customer-avatar system-avatar">'+appIcon('spark')+'</span><span class="conversation-copy"><span class="conversation-title"><b>G니 · '+tr('系统消息','System Chat','시스템 채팅')+'</b><small>09:00</small></span><span class="conversation-preview">'+tr('Weekend Special Picks 开放报名','Weekend Special Picks is open for enrollment','Weekend Special Picks 신청이 시작됐어요')+'</span></span>'+(!state.systemChatSeen?'<span class="unread-chat">1</span>':'')+'</button>';
 }
-function openSystemChat(){
-  openedChat=null;systemChatOpen=true;state.systemChatSeen=true;save();render();
+function platformNotices(){
+  const pendingOrders=demoOrders.filter(order=>statusOf(order)==='pending').length;
+  const outOfStock=lowStockItems().length;
+  const notices=[];
+  if(pendingOrders)notices.push({
+    id:'order-alert',
+    category:tr('新订单提醒','New order alert','신규 주문 알림'),
+    title:tr(pendingOrders+' 笔新订单待处理',pendingOrders+' new order'+(pendingOrders===1?'':'s')+' to process','처리 대기 신규 주문 '+pendingOrders+'건'),
+    body:tr('前往订单管理查看待处理订单。','Review pending orders in Order management.','주문 관리에서 처리 대기 주문을 확인하세요.'),
+    label:tr('查看待处理订单','View pending orders','대기 주문 보기'),
+    action:"selectMenu('order')"
+  });
+  if(outOfStock)notices.push({
+    id:'stock-alert',
+    category:tr('库存告警','Stock alert','재고 알림'),
+    title:tr(outOfStock+' 件商品达到库存预警线',outOfStock+' items at or below safety stock','안전 재고 이하 상품 '+outOfStock+'개'),
+    body:tr('点击进入商品编辑列表，安全库存可在 My 设置。','Open the item editing list. Configure safety stock in My.','상품 수정 목록으로 이동하세요. 안전 재고는 My에서 설정할 수 있어요.'),
+    label:tr('编辑预警商品','Edit low-stock items','재고 경고 상품 수정'),
+    action:"onlyOutOfStock=true;itemQuery='';editingItem=null;selectMenu('item')"
+  });
+  return notices;
 }
-function systemChatPage(){
-  return managementHeader('G니 · '+tr('系统消息','System Chat','시스템 채팅'))+
-    '<button class="text-btn" onclick="systemChatOpen=false;render()">← '+tr('返回会话','Back to inbox','대화 목록')+'</button>'+
-    '<p class="muted">'+tr('活动通知、订单待办和库存提醒','Campaign notices, order tasks and stock alerts','행사 알림, 주문 할 일 및 재고 알림')+'</p>'+
-    '<div class="system-message-list">'+
-    systemMessage('09:00',tr('活动开放报名','Campaign enrollment is open','행사 신청 시작'),'Weekend Special Picks · '+tr('G니 已筛选可报名商品。','G니 has found eligible items for you.','G니가 신청 가능한 상품을 찾았어요.'),tr('查看活动','View campaign','행사 보기'),"switchCampaign('weekend-picks')")+
-    systemMessage('08:42',tr('有新订单待处理','New order needs attention','신규 주문 처리 필요'),tr('请查看订单管理中的待处理订单。','Review pending orders in Order management.','주문 관리에서 처리 대기 주문을 확인하세요.'),tr('查看待处理订单','View pending orders','대기 주문 보기'),"orderFilter='pending';selectMenu('order')")+
-    systemMessage('08:15',tr('商品库存提醒','Stock alert','재고 알림'),tr('请查看缺货商品并更新库存。','Review out-of-stock items and update inventory.','품절 상품을 확인하고 재고를 수정하세요.'),tr('查看缺货商品','View out-of-stock items','품절 상품 보기'),"onlyOutOfStock=true;itemQuery='';editingItem=null;selectMenu('item')")+
-    '</div><p class="demo">'+tr('系统消息为原型示例。','Sample system messages.','시스템 메시지 데모입니다.')+'</p>';
+function openAppNotifications(){
+  const read=state.readPlatformNotices||[];
+  document.getElementById('overlay').innerHTML=`<div class="modal-back" role="dialog" aria-modal="true" aria-label="${tr('平台通知中心','Platform Notification Center','플랫폼 알림 센터')}">
+    <section class="modal notification-modal">
+      <div class="notification-scroll"><div class="topline"><h2>${tr('平台通知中心','Platform Notification Center','플랫폼 알림 센터')}</h2><button class="text-btn" onclick="markPlatformNoticesRead()">${tr('全部已读','Mark all read','모두 읽음')}</button></div>
+        <div class="notification-list">${platformNotices().map(notice=>`<article class="notification-row ${read.includes(notice.id)?'':'platform-notice-unread'}">
+          <div class="topline"><span class="pill">${notice.category}</span>${!read.includes(notice.id)?'<span class="platform-unread-dot" aria-hidden="true"></span>':''}</div>
+          <h3>${notice.title}</h3><p class="muted">${notice.body}</p>
+          ${notice.label?`<button class="text-btn" onclick="openPlatformNotice('${notice.id}')">${notice.label} ↗</button>`:''}
+        </article>`).join('')}</div>
+      </div>
+      <div class="notification-footer"><button class="btn secondary" onclick="closeAppNotifications()">${tr('关闭','Close','닫기')}</button></div>
+    </section>
+  </div>`;
+  localize();document.querySelector('.notification-footer .btn').focus();
+}
+function closeAppNotifications(){
+  closeModal();document.getElementById('app-notification-bell')?.focus();
+}
+function markPlatformNoticesRead(){
+  state.readPlatformNotices=platformNotices().map(notice=>notice.id);
+  save();render();openAppNotifications();
+}
+function openPlatformNotice(id){
+  if(!platformNotices().some(notice=>notice.id===id))return;
+  state.readPlatformNotices=[...new Set([...(state.readPlatformNotices||[]),id])];
+  save();closeModal();
+  if(id==='order-alert')selectMenu('order');
+  if(id==='stock-alert'){stockAlertsOnly=true;onlyOutOfStock=false;itemQuery='';editingItem=null;selectMenu('item')}
+}
+function openSystemChat(){
+  appSection='tasks';openedChat=null;systemChatOpen=true;taskStatusFilter='pending';state.systemChatSeen=true;save();render();
+}
+let taskStatusFilter='pending';
+const taskStatusLabels={
+  pending:['待处理','Pending','처리 대기'],
+  progress:['进行中','In process','진행 중'], completed:['已完成','Completed','완료']
+};
+const serviceUpgradeTitle=['商家服务包升级','Seller service package upgrade','판매자 서비스 패키지 업그레이드'];
+const officialTaskSource=['平台运营指派','Assigned by Platform Operations','플랫폼 운영팀 배정'];
+function taskCenterPage(){
+  const tasks=campaignList.map(campaign=>{
+    const phase=campaignPhases[campaign.id];
+    const status=phase==='ended'?'completed':phase==='open'&&!campaignEnrollment(campaign.id).length?'pending':'progress';
+    return {status,source:'G니 · AI',title:campaign.name,
+      description:phrase(phaseLabels[phase])+' · '+campaign.dates,
+      label:phase==='ended'?tr('查看结果','View results','결과 보기'):tr('查看活动','View campaign','행사 보기'),
+      action:`switchCampaign('${campaign.id}')`};
+  });
+  tasks.push({status:state.serviceUpgradeSignedAt?'completed':'pending',source:phrase(officialTaskSource),
+    title:phrase(serviceUpgradeTitle),description:state.serviceUpgradeSignedAt?
+      tr('新协议已签署','New agreement signed','새 계약 체결 완료'):tr('对比方案并签署新协议','Compare plans and sign the new agreement','요금제를 비교하고 새 계약에 동의하세요'),
+    label:tr('查看详情','View details','상세 보기'),action:'openServiceUpgradeTask()'});
+  const tabs=Object.entries(taskStatusLabels).map(([id,label])=>
+    `<button type="button" class="${taskStatusFilter===id?'active':''}" aria-pressed="${taskStatusFilter===id}" onclick="setTaskStatusFilter('${id}')">${phrase(label)}</button>`).join('');
+  const cards=tasks.filter(task=>task.status===taskStatusFilter).map(task=>`
+    <article class="card task-card"><div><div class="task-card-meta">
+      <span class="task-status ${task.status}">${phrase(taskStatusLabels[task.status])}</span><span>${task.source}</span>
+    </div><h3>${task.title}</h3><p class="muted">${task.description}</p></div>
+    <button class="btn" onclick="${task.action}" aria-label="${task.label} · ${task.title}">${task.label} ↗</button></article>`).join('');
+  const previews=taskStatusFilter==='pending'?[
+    tr('新商品上架推荐','New product listing recommendations','신규 상품 등록 추천'),
+    tr('价格优化','Price optimization','가격 최적화')
+  ].map(title=>`<article class="card task-card coming-soon"><div><span class="pill coming-soon-label">${tr('即将推出','Coming soon','출시 예정')}</span><h3>${title}</h3></div></article>`).join(''):'';
+  const empty=`<p class="muted">${tr('此状态下暂无任务。','No tasks with this status.','이 상태의 할 일이 없습니다.')}</p>`;
+  return `<div class="task-status-tabs" role="group" aria-label="${tr('按任务状态筛选','Filter by task status','할 일 상태 필터')}">${tabs}</div>
+    <div class="task-center-list" aria-live="polite">${cards||empty}</div>${previews?'<div class="task-center-list">'+previews+'</div>':''}`;
+}
+function setTaskStatusFilter(status){
+  if(!Object.hasOwn(taskStatusLabels,status))return;
+  taskStatusFilter=status;render();
+  document.querySelector('.task-status-tabs button.active')?.focus({preventScroll:true});
+}
+function serviceAgreementTerm(date){
+  const start=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
+  const [year,month,day]=start.split('-').map(Number);
+  const end=new Date(Date.UTC(year+1,month-1,day-1)).toISOString().slice(0,10);
+  return start+' — '+end+' KST';
+}
+function openServiceUpgradeTask(){
+  const title=phrase(serviceUpgradeTitle);
+  const signedAt=state.serviceUpgradeSignedAt;
+  const term=serviceAgreementTerm(signedAt?new Date(signedAt):new Date());
+  const rows=[
+    [tr('年度平台基础费','Annual platform fee','연간 플랫폼 기본료'),money(120000),money(240000)],
+    [tr('每单平台佣金','Commission per order','주문당 판매 수수료'),'8%','6%'],
+    [tr('每单平台配送费','Delivery fee per order','주문당 배송비'),money(3000),money(2500)],
+    [tr('服务权益','Included benefits','제공 혜택'),tr('无广告推广','No ad promotion','광고 프로모션 없음'),tr('平台广告推广和高级运营工具','Platform ad promotion and advanced seller tools','플랫폼 광고 프로모션 및 고급 판매 도구')]
+  ];
+  document.getElementById('overlay').innerHTML=`<div class="modal-back" role="dialog" aria-modal="true" aria-label="${title}"><div class="modal">
+    <span class="pill">${phrase(officialTaskSource)}</span><h2 style="margin-top:12px">${title}</h2>
+    <table class="agreement-table"><thead><tr><th scope="col">${tr('协议条款','Terms','계약 조건')}</th><th scope="col">${tr('原方案','Current plan','기존 플랜')}</th><th scope="col">${tr('升级方案','Upgraded plan','업그레이드 플랜')}</th></tr></thead>
+    <tbody>${rows.map(([label,current,upgrade])=>`<tr><th scope="row">${label}</th><td>${current}</td><td>${upgrade}</td></tr>`).join('')}</tbody></table>
+    <p><b>${tr('生效期限','Effective period','적용 기간')}</b><br>${term}<br>${signedAt?tr('新协议已签署','New agreement signed','새 계약 체결 완료'):tr('签署确认后立即生效','Takes effect as soon as you sign','서명 즉시 적용됩니다')}</p>
+    <p>${tr('费率与权益均为演示示例，签署记录仅保存在当前浏览器。','Sample fees and benefits. Signing is saved in this browser for demo purposes.','예시 요금 및 혜택입니다. 서명 기록은 데모용으로 현재 브라우저에 저장됩니다.')}</p>
+    ${signedAt?'':`<form class="agreement-form" onsubmit="signServiceUpgrade(event)">
+      <label class="agreement-consent"><input type="checkbox" name="consent" required onchange="this.form.elements.namedItem('sign').disabled=!this.checked"><span>${tr('我已阅读并同意升级后的服务协议。','I have reviewed and agree to the upgraded service terms.','업그레이드 서비스 약관을 읽었으며 이에 동의합니다.')}</span></label>
+      <button class="btn" type="submit" name="sign" disabled>${tr('确认签署并生效','Sign and activate','서명 및 적용')}</button>
+    </form>`}
+    <button class="btn secondary" onclick="closeModal()">${tr('关闭','Close','닫기')}</button></div></div>`;
+  document.querySelector('.modal .agreement-consent input, .modal button:not([disabled])')?.focus();
+}
+function signServiceUpgrade(event){
+  event.preventDefault();
+  if(state.serviceUpgradeSignedAt||!event.currentTarget.elements.namedItem('consent').checked)return;
+  state.serviceUpgradeSignedAt=new Date().toISOString();
+  save();closeModal();setTaskStatusFilter('completed');
 }
 function systemMessage(time,title,body,label,action){
-  return '<article class="card system-message"><div class="topline"><span class="pill">G니</span><span class="muted">'+time+' KST</span></div><h3>'+title+'</h3><p class="muted">'+body+'</p><button class="btn" onclick="'+action+'">'+label+' ↗</button></article>';
+  return '<article class="card system-message"><div class="topline"><span class="pill">G니</span>'+(time?'<span class="muted">'+time+' KST</span>':'')+'</div><h3>'+title+'</h3><p class="muted">'+body+'</p><button class="btn" onclick="'+action+'">'+label+' ↗</button></article>';
 }
 
 function statusOf(order){return state.orderStatuses?.[order.id]||order.status}
 function orderPage(){
-  const rows=demoOrders.filter(o=>orderFilter==='all'||statusOf(o)===orderFilter);
+  const rows=sortedOrders();
   const options=[['all',['全部订单','All orders','전체 주문']],...Object.entries(orderStatusLabels)];
   return '<h2>'+tr('订单管理','Order management','주문 관리')+'</h2><label class="management-field">'+tr('订单状态','Order status','주문 상태')+
     '<select onchange="orderFilter=this.value;render()">'+options.map(([id,label])=>'<option value="'+id+'" '+(orderFilter===id?'selected':'')+'>'+phrase(label)+'</option>').join('')+'</select></label>'+
-    '<div class="management-list">'+rows.map(o=>'<button class="recommended-task-row" onclick="showOrderDetail(\''+o.id+'\')"><span class="recommended-copy"><span class="pill">'+phrase(orderStatusLabels[statusOf(o)])+'</span><b>#'+o.id+' · '+o.item+'</b><small>'+o.buyer+' · '+money(o.total)+'</small></span><span class="recommended-arrow">↗</span></button>').join('')+
+    '<p class="muted">'+tr('待处理订单优先，同组按下单时间倒序','Pending orders first, then newest first within each status group','처리 대기 우선, 그룹 내 주문 시간 최신순')+'</p><div class="management-list">'+rows.map(o=>'<button class="recommended-task-row" onclick="showOrderDetail(\''+o.id+'\')"><span class="recommended-copy"><span class="pill">'+phrase(orderStatusLabels[statusOf(o)])+'</span><b>#'+o.id+' · '+o.item+'</b><small>'+o.buyer+' · '+money(o.total)+'</small><small>'+orderCreatedLabel(o)+'</small></span><span class="recommended-arrow">↗</span></button>').join('')+
     (!rows.length?'<div class="card empty">'+tr('暂无符合条件的订单','No orders in this status','해당 상태의 주문이 없어요')+'</div>':'')+'</div><p class="demo">'+tr('演示订单与退款操作。','Demo orders and refund actions.','주문 및 환불 데모입니다.')+'</p>';
 }
 function showOrderDetail(id){
@@ -303,8 +650,10 @@ function inventoryItem(id){
 function itemPage(){
   const query=itemQuery.toLowerCase();
   const items=itemCatalog.map(p=>inventoryItem(p.id)).filter(p=>
-    (!onlyOutOfStock||p.stock===0)&&(!query||(p.id+' '+p.name).toLowerCase().includes(query)));
-  return '<h2>'+tr('商品管理','Item management','상품 관리')+'</h2>'+
+    (!onlyOutOfStock||p.stock===0)&&(!stockAlertsOnly||(p.listed&&p.stock<=safeStockFor(p.id)))&&(!query||(p.id+' '+p.name).toLowerCase().includes(query)));
+  const settingsLabel=tr('安全库存设置','Safety stock settings','안전 재고 설정');
+  return '<div class="item-management-heading"><h2>'+tr('商品管理','Item management','상품 관리')+'</h2>'+
+    '<button id="stock-settings-button" class="stock-settings-button" type="button" aria-haspopup="dialog" aria-label="'+settingsLabel+'" title="'+settingsLabel+'" onclick="openSafetyStockSettings()"><span aria-hidden="true">⚙</span></button></div>'+
     '<form class="chat-search-form inventory-search" onsubmit="searchItems(event)"><input name="query" aria-label="'+tr('搜索商品名称或编号','Search item name or ID','상품명 또는 번호 검색')+'" placeholder="'+tr('商品名称或编号','Item name or ID','상품명 또는 번호')+'" value="'+escapeChat(itemQuery)+'"><button>'+tr('搜索','Search','검색')+'</button></form>'+
     '<label class="muted inventory-filter"><input type="checkbox" '+(onlyOutOfStock?'checked':'')+' onchange="onlyOutOfStock=this.checked;editingItem=null;render()"> '+tr('仅看缺货商品','Out of stock only','품절 상품만')+'</label>'+
     '<div class="management-list">'+items.map(item=>'<article class="card item-management-card"><div class="topline"><h3>'+item.art+' '+escapeChat(item.name)+'</h3><span class="pill">'+(item.listed?tr('已上架','Listed','판매 중'):tr('已下架','Unlisted','판매 중지'))+'</span></div><p class="muted">'+item.id+' · '+money(item.price)+' · '+tr('库存','Stock','재고')+' '+item.stock+'</p>'+
@@ -421,10 +770,100 @@ function displayDashboard(){
     metric(tr('商品总数','Total items','전체 상품'),items.length,tr('当前目录','Current catalog','현재 목록'))+'</div><button class="text-btn" onclick="onlyOutOfStock=true;itemQuery=\'\';selectMenu(\'item\')">'+tr('查看缺货商品','View out-of-stock items','품절 상품 보기')+' ↗</button>';
 }
 
+
+let stockAlertsOnly=false;
+const orderTimes=['2026-11-11T13:42:00+09:00','2026-11-11T12:20:00+09:00','2026-11-10T15:30:00+09:00','2026-11-06T10:15:00+09:00','2026-11-05T11:00:00+09:00','2026-11-03T16:40:00+09:00'];
+demoOrders.forEach((order,index)=>{order.createdAt=orderTimes[index]});
+itemCatalog.find(item=>item.id==='GM-20419').reviewStatus='rejected';
+
+function operationHome(){
+  const shortcuts=[
+    ['order',tr('订单','Orders','주문'),'<rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 9h6m-6 4h6m-6 4h4"/>'],
+    ['item',tr('商品','Items','상품'),'<path d="m3 7 9-4 9 4v10l-9 4-9-4V7Zm0 0 9 4 9-4m-9 4v10"/>'],
+    ['campaign',tr('营销','Marketing','마케팅'),'<path d="M4 10v4h4l9 4V6l-9 4H4Zm4 4 2 6m10-11 2-2m-2 8 2 2"/>']
+  ];
+  return '<div class="operation-home"><nav class="operation-shortcuts" aria-label="'+tr('运营快捷入口','Operations shortcuts','운영 바로가기')+'">'+
+    shortcuts.map(([section,label,icon])=>`<button class="operation-shortcut" onclick="openOperationSection('${section}')"><span class="operation-shortcut-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icon}</svg></span>${label}</button>`).join('')+
+    '</nav><section class="operation-dashboard">'+home()+'</section><button class="text-btn" onclick="page=\'insights\';render()">'+tr('更多经营数据','More performance data','운영 데이터 더보기')+' ↗</button></div>';
+}
+function sortedOrders(){
+  return demoOrders.filter(order=>orderFilter==='all'||statusOf(order)===orderFilter)
+    .sort((a,b)=>Number(statusOf(b)==='pending')-Number(statusOf(a)==='pending')||Date.parse(b.createdAt)-Date.parse(a.createdAt));
+}
+function orderCreatedLabel(order){
+  return order.createdAt.slice(5,10)+' '+order.createdAt.slice(11,16)+' KST';
+}
+function safeStockFor(id){
+  return safetyStockThresholds()[stockThresholdType(id)];
+}
+function stockThresholdType(id){
+  return campaignList.some(campaign=>campaignPhases[campaign.id]==='live'&&
+    campaignEnrollment(campaign.id).some(item=>item.id===id))?'campaign':'daily';
+}
+function safetyStockThresholds(){
+  if(!state.safetyStockThresholds){
+    const thresholds={daily:10,campaign:10};
+    for(const item of itemCatalog){
+      const previous=state.safetyStocks?.[item.id];
+      if(Number.isInteger(previous)&&previous>=0){
+        const type=stockThresholdType(item.id);
+        thresholds[type]=Math.max(thresholds[type],previous);
+      }
+    }
+    state.safetyStockThresholds=thresholds;
+  }
+  return state.safetyStockThresholds;
+}
+function lowStockItems(){
+  return itemCatalog.map(item=>inventoryItem(item.id)).filter(item=>item.listed&&item.stock<=safeStockFor(item.id));
+}
+function safetyStockSettings(){
+  const title=tr('安全库存','Safety stock','안전 재고');
+  const thresholds=safetyStockThresholds();
+  const fields=[
+    ['daily',tr('日常库存','Daily stock','일반 재고'),tr('日常销售商品的安全库存','Safety stock for everyday sales','일반 판매 상품 안전 재고')],
+    ['campaign',tr('活动库存','Campaign stock','행사 재고'),tr('参与进行中活动商品的安全库存','Safety stock for items in live campaigns','진행 중 행사 참여 상품 안전 재고')]
+  ];
+  return '<div id="safety-stock-dialog" class="modal-back" role="dialog" aria-modal="true" aria-labelledby="safety-stock-title"><div class="modal"><h2 id="safety-stock-title">'+title+'</h2><p>'+tr('在架商品库存小于或等于对应阈值时提醒，单位为件。','Alerts trigger when a listed item reaches or falls below its threshold, in units.','판매 중 상품 재고가 해당 기준 이하이면 알려드려요. 단위는 개입니다.')+'</p><form class="safety-stock-form" onsubmit="saveSafetyStocks(event)">'+
+    fields.map(([id,label,description])=>'<label><span>'+label+'<small>'+description+'</small></span><input aria-label="'+label+'" type="number" name="'+id+'" min="0" max="999999" step="1" required value="'+thresholds[id]+'"></label>').join('')+
+    '<button class="btn" type="submit">'+tr('保存安全库存','Save safety stock','안전 재고 저장')+'</button>'+
+    '<button class="btn secondary" type="button" onclick="closeModal()">'+tr('取消','Cancel','취소')+'</button></form></div></div>';
+}
+function openSafetyStockSettings(){
+  document.getElementById('overlay').innerHTML=safetyStockSettings();
+  document.querySelector('.safety-stock-form input').focus();
+}
+function saveSafetyStocks(event){
+  event.preventDefault();
+  const values={};
+  for(const type of ['daily','campaign']){
+    const input=event.currentTarget.elements.namedItem(type);
+    if(!input||!input.value.trim())return;
+    const number=Number(input.value);
+    if(!Number.isInteger(number)||number<0||number>999999)return;
+    values[type]=number;
+  }
+  state.safetyStockThresholds=values;
+  save();render();closeModal();
+  toast(tr('安全库存已保存','Safety stock saved','안전 재고 저장 완료'));
+}
+function filterChatSearch(value){
+  chatSearchQuery=value;
+  render();
+  const input=document.getElementById('chat-search-query');
+  input.focus({preventScroll:true});
+  input.setSelectionRange?.(value.length,value.length);
+}
+
+function openOperationSection(section){
+  if(section==='item'){stockAlertsOnly=false;onlyOutOfStock=false;itemQuery='';editingItem=null}
+  selectMenu(section);
+}
+
 function taskBanner(){const t=taskData();return '<section class="action-center" aria-label="'+tr('G니 为你发现的待办','Tasks found by G니','G니가 찾은 할 일')+'"><div class="action-heading geni-heading"><span class="geni-avatar" aria-hidden="true"><svg viewBox="0 0 32 32" width="28" height="28" fill="none"><path d="M16 5V2" stroke="currentColor" stroke-width="2"/><rect x="5" y="7" width="22" height="19" rx="7" fill="white"/><circle cx="12" cy="15" r="2" fill="currentColor"/><circle cx="20" cy="15" r="2" fill="currentColor"/><path d="M12 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><div><h2>'+tr('G니 为你发现的待办','Tasks found by G니','G니가 찾은 할 일')+'</h2><p>'+tr('我帮你查看了店铺，以下事项值得关注。','I checked your store. Here’s what needs your attention.','스토어를 살펴봤어요. 확인할 일을 알려드릴게요.')+'</p></div><button class="task-more" onclick="go(\'tasks\')">'+tr('更多','More','더보기')+' ↗</button></div>'+kamTasks()+'</section>'}
 function openTask(){if(taskCategory==='campaign'){go('sale');return}const order=taskCategory==='orders',t=taskData();document.getElementById('overlay').innerHTML='<div class="modal-back" role="dialog" aria-modal="true" aria-label="'+t.title+'"><div class="modal"><span class="pill">'+tr('后续能力预览','Future feature preview','추후 기능 미리보기')+'</span><h2 style="margin-top:16px">'+t.title+'</h2><p>'+t.body+'</p>'+(order?'<div class="notice">#GM-261029-081 · 09:42 KST · ₩29,900<br>#GM-261027-079 · 13:31 KST · ₩54,900<br>#GM-261027-078 · 13:18 KST · ₩22,900</div>':'<div class="notice">'+tr('结算周期','Settlement period','정산 기간')+': 10.19–10.25<br>'+tr('预计到账','Expected payout date','입금 예정일')+': 10.30<br>₩2,460,000</div>')+'<p>'+tr('此处展示通用任务的扩展示例。订单与结算尚未对接，本次不会确认真实订单或结算。','This previews the reusable task flow. Orders and settlements are not connected; no real order or payout is confirmed.','범용 할 일 확장 예시입니다. 주문·정산은 연동되지 않았으며 실제 주문이나 정산은 확정되지 않습니다.')+'</p><button class="btn" onclick="closeModal()">'+tr('返回首页','Back to home','홈으로 돌아가기')+'</button></div></div>';localize();document.querySelector('.modal .btn').focus()}
 
-function home(){const d=dashboardData[dashboardRange],compare=comparisonLabel();return '<div class="section-head"><h2>'+tr('经营概览','Store overview','스토어 현황')+'</h2><span class="muted">'+tr('更新于 14:00 KST','Updated 14:00 KST','14:00 KST 업데이트')+'</span></div><div class="date-tabs" role="group" aria-label="'+tr('数据时间范围','Data period','데이터 기간')+'">'+[['today',tr('今日','Today','오늘')],['week',tr('近7天','Last 7 days','최근 7일')],['month',tr('近1个月','Last month','최근 1개월')]].map(([id,label])=>'<button aria-pressed="'+(dashboardRange===id)+'" class="'+(dashboardRange===id?'active':'')+'" onclick="setDashboardRange(\''+id+'\')">'+label+'</button>').join('')+'</div><p class="period-caption">'+d.dates+'</p><div class="metrics" aria-live="polite">'+metric(tr('成交金额 GMV','GMV','거래액 GMV'),money(d.gmv),'↗ '+d.deltas[0]+' '+compare)+metric(tr('支付订单','Paid orders','결제 주문'),d.orders.toLocaleString('en-US'),'↗ '+d.deltas[1]+' '+compare)+metric(tr('商品访客','Product visitors','상품 방문자'),d.visitors.toLocaleString('en-US'),'↗ '+d.deltas[2]+' '+compare)+metric(tr('支付转化率','Payment conversion','결제 전환율'),d.conversion,'↗ '+d.deltas[3]+' pp '+compare)+'</div><div class="grid"><div class="card"><div class="topline"><h3>'+tr('成交趋势','GMV trend','거래액 추이')+'</h3><span class="pill">'+rangeLabel()+'</span></div><div class="legend"><span><i></i>'+tr('所选时段','Selected period','선택 기간')+'</span><span><i class="gray"></i>'+tr('对比时段','Comparison period','비교 기간')+'</span></div>'+dashboardChart()+'<p class="muted chart-note">'+(dashboardRange==='today'?tr('今日按小时查看；与昨日截至14:00的同等时段比较。','Hourly view today; compared with yesterday up to 14:00.','오늘 시간대별 추이 · 어제 14시까지의 동일 시간대와 비교합니다.'):tr('近7天、近1个月均不含今日；近1个月按最近30个完整自然日统计。趋势为每日成交额，月份视图抽样展示。','Completed days only; last month means the latest 30 full days. Trend shows daily GMV, sampled in the monthly view.','오늘 제외 · 최근 1개월은 완료된 30일 기준입니다. 일별 거래액 추이이며 월간 보기는 일부 날짜를 표시합니다.'))+'</p></div><div class="card"><div class="topline"><h3>'+tr('活动动态','Campaign update','캠페인 소식')+'</h3><span class="pill">DAILY BRIEF</span></div><div class="task"><div class="icon">▤</div><div><h3>'+tr('秋日焕新 · 昨日战报','Autumn Refresh · Daily brief','가을 리프레시 · 어제 성과')+'</h3><p class="muted">'+tr('活动成交额增长 24.8%','Campaign GMV grew 24.8%','캠페인 거래액 24.8% 증가')+'</p></div><button aria-label="'+tr('查看日报','View daily report','일일 리포트 보기')+'" onclick="go(\'daily\')">↗</button></div></div></div><p class="demo">'+tr('所有任务及经营指标均为演示数据；时间统一为韩国时间。','All tasks and business metrics are simulated. All times are KST.','모든 할 일과 운영 지표는 데모 데이터이며 시간은 KST 기준입니다.')+'</p>'}
+function home(){const d=dashboardData[dashboardRange],compare=comparisonLabel();return '<div class="section-head"><h2>'+tr('经营概览','Store overview','스토어 현황')+'</h2><span class="muted">'+tr('更新于 14:00 KST','Updated 14:00 KST','14:00 KST 업데이트')+'</span></div><div class="date-tabs" role="group" aria-label="'+tr('数据时间范围','Data period','데이터 기간')+'">'+[['today',tr('今日','Today','오늘')],['week',tr('近7天','Last 7 days','최근 7일')],['month',tr('近30天','Last 30 days','최근 30일')]].map(([id,label])=>'<button aria-pressed="'+(dashboardRange===id)+'" class="'+(dashboardRange===id?'active':'')+'" onclick="setDashboardRange(\''+id+'\')">'+label+'</button>').join('')+'</div><p class="period-caption">'+d.dates+'</p><div class="metrics" aria-live="polite">'+metric(tr('成交金额 GMV','GMV','거래액 GMV'),money(d.gmv),'↗ '+d.deltas[0]+' '+compare)+metric(tr('支付订单','Paid orders','결제 주문'),d.orders.toLocaleString('en-US'),'↗ '+d.deltas[1]+' '+compare)+metric(tr('商品曝光','Impressions','상품 노출'),d.impressions.toLocaleString('en-US'),'↗ '+d.deltas[2]+' '+compare)+metric(tr('支付转化率','Payment conversion','결제 전환율'),d.conversion,'↗ '+d.deltas[3]+' pp '+compare)+'</div><div class="grid"><div class="card"><div class="topline"><h3>'+tr('成交趋势','GMV trend','거래액 추이')+'</h3><span class="pill">'+rangeLabel()+'</span></div><div class="legend"><span><i></i>'+tr('所选时段','Selected period','선택 기간')+'</span><span><i class="gray"></i>'+tr('对比时段','Comparison period','비교 기간')+'</span></div>'+dashboardChart()+'<p class="muted chart-note">'+(dashboardRange==='today'?tr('今日按小时查看；与昨日截至14:00的同等时段比较。','Hourly view today; compared with yesterday up to 14:00.','오늘 시간대별 추이 · 어제 14시까지의 동일 시간대와 비교합니다.'):tr('近7天和近30天均按已结束的自然日统计。趋势为每日成交额，近30天视图抽样展示。','The 7- and 30-day ranges use completed days. The 30-day chart samples daily GMV.','최근 7일과 30일은 완료된 날짜 기준입니다. 30일 그래프는 일부 날짜의 거래액을 표시합니다.'))+'</p></div><div class="card"><div class="topline"><h3>'+tr('活动动态','Campaign update','캠페인 소식')+'</h3><span class="pill">DAILY BRIEF</span></div><div class="task"><div class="icon">▤</div><div><h3>'+tr('秋日焕新 · 昨日战报','Autumn Refresh · Daily brief','가을 리프레시 · 어제 성과')+'</h3><p class="muted">'+tr('活动成交额增长 24.8%','Campaign GMV grew 24.8%','캠페인 거래액 24.8% 증가')+'</p></div><button aria-label="'+tr('查看日报','View daily report','일일 리포트 보기')+'" onclick="go(\'daily\')">↗</button></div></div></div><p class="demo">'+tr('所有任务及经营指标均为演示数据；时间统一为韩国时间。','All tasks and business metrics are simulated. All times are KST.','모든 할 일과 운영 지표는 데모 데이터이며 시간은 KST 기준입니다.')+'</p>'}
 
 
 function campaignForecastMarkup(){return '<section class="forecast campaign-forecast" aria-label="'+tr('活动整体预估','Campaign forecast','캠페인 전체 예상 성과')+'"><div class="forecast-title">'+tr('活动整体预计增量','Estimated campaign uplift','캠페인 전체 예상 증가')+'<small>Nov 1–7</small></div><div class="forecast-grid"><div><label>'+tr('预计新增曝光量','Additional impressions','예상 추가 노출')+'</label><strong>+7,000</strong></div><div><label>'+tr('预计新增订单量','Additional orders','예상 추가 주문')+'</label><strong>+72</strong></div></div><p class="forecast-disclaimer">'+tr('基于本店3件推荐商品的活动全周期示例预估，对比不参加活动的同周期基线。非效果保证；勾选或修改价格不会重新计算。','Illustrative full-campaign uplift for this store’s 3 recommended products, versus not participating. Not guaranteed; selection and price edits do not recalculate this estimate.','스토어 추천 상품 3개의 행사 전체 기간 예시 증가분입니다. 미참여 시 대비이며 실제 성과를 보장하지 않습니다. 선택 및 가격 수정 시 재계산되지 않습니다.')+'</p></section>'}
@@ -434,8 +873,8 @@ function eligible(){const list=products.filter(p=>canRecommend(p));if(!list.leng
 function enrolled(){return state.enrolled?.length?`<div class="notice">✓ 报名成功 · 方案已保存于本浏览器</div><div class="products">${state.enrolled.map(p=>`<div class="card product"><div class="product-art ${p.color}">${p.art}</div><div><h3>${p.name}</h3><p class="muted">${p.id} · 活动售价 ${money(p.price)}<br>SD ${p.sd}% · SV ${p.sv}%</p><b>${money(finalPrice(p))}</b> <span class="muted">预计到手价</span></div><span class="pill">已报名</span></div>`).join('')}</div>`:`<div class="card empty"><h2>还没有报名商品</h2><p class="muted">查看平台推荐商品，开始你的下一场活动。</p><button class="btn" onclick="saleTab='eligible';render()">去报名</button></div>`}
 function toggle(id,v){v?selected.add(id):selected.delete(id);document.getElementById('selected-count').textContent='已选 '+products.filter(p=>selected.has(p.id)&&canRecommend(p)).length+' 件商品';localize()}function toggleAll(v){products.filter(canRecommend).forEach(p=>v?selected.add(p.id):selected.delete(p.id));render()}function valid(p){return Number.isFinite(p.price)&&p.price>0&&p.price<=p.base&&Number.isInteger(p.price)&&Number.isInteger(p.sd)&&p.sd>=0&&p.sd<=50&&Number.isInteger(p.sv)&&p.sv>=0&&p.sv<=30&&finalPrice(p)<=p.max}function edit(id,k,v){let p=products.find(p=>p.id===id);p[k]=v===''?NaN:Number(v);document.getElementById('final-'+id).textContent=Number.isFinite(finalPrice(p))?money(finalPrice(p)):'—';document.getElementById('error-'+id).textContent=valid(p)?'':translate('请检查整数价格与优惠范围，并确保到手价不超过报名上限。')}
 function confirmEnroll(){if(campaignPhases[activeCampaign]!=='open')return;const list=products.filter(p=>selected.has(p.id)&&canRecommend(p));if(!list.length)return toast('请至少选择一件商品');if(list.some(p=>!valid(p)))return toast('部分商品方案未达报名要求，请调整后重试');document.getElementById('overlay').innerHTML=`<div class="modal-back" role="dialog" aria-modal="true" aria-label="确认报名"><div class="modal"><span class="pill">确认活动方案</span><h2 style="margin-top:18px">为 ${list.length} 件商品报名？</h2><p>活动：${campaignList.find(c=>c.id===activeCampaign).name}<br>活动时间：${campaignList.find(c=>c.id===activeCampaign).dates}<br>商家承担 SD 直降与 SV 商家券优惠。</p>${list.map(p=>`<div class="topline" style="margin:12px 0;font-size:12px"><span>${p.name}</span><b>${money(finalPrice(p))}</b></div>`).join('')}<p>这是交互演示，确认后仅在本浏览器保存。</p><button class="btn" onclick="submitEnroll()">确认方案，立即报名</button><button class="btn secondary" onclick="closeModal()">返回调整</button></div></div>`;localize();document.querySelector('.modal .btn').focus()}
-function closeModal(){document.getElementById('overlay').innerHTML=''}function submitEnroll(){if(campaignPhases[activeCampaign]!=='open')return;const list=products.filter(p=>selected.has(p.id)&&canRecommend(p));if(!list.length||!list.every(valid))return;state.enrolled=[...(state.enrolled||[]),...list.map(p=>({...p}))];save();saleTab='enrolled';closeModal();go('campaign-detail');toast('报名成功！可在「已报名」查看商品方案')}
+function closeModal(){const stockDialog=document.querySelector('#safety-stock-dialog');document.getElementById('overlay').innerHTML='';if(stockDialog)document.getElementById('stock-settings-button')?.focus()}function submitEnroll(){if(campaignPhases[activeCampaign]!=='open')return;const list=products.filter(p=>selected.has(p.id)&&canRecommend(p));if(!list.length||!list.every(valid))return;state.enrolled=[...(state.enrolled||[]),...list.map(p=>({...p}))];save();saleTab='enrolled';closeModal();go('campaign-detail');toast('报名成功！可在「已报名」查看商品方案')}
 function reports(){return `<div class="tabs report-tabs"><button class="${reportTab==='daily'?'active':''}" onclick="reportTab='daily';render()">活动日报</button><button class="${reportTab==='summary'?'active':''}" onclick="reportTab='summary';render()">活动复盘</button></div>`+(reportTab==='daily'?daily():summary())}function daily(){const yesterday=reportDay==='25';return `<div class="topline" style="margin-bottom:18px"><span class="pill">秋日焕新 Flash Sale · 进行中</span><select aria-label="选择日报日期" onchange="reportDay=this.value;render()"><option value="25" ${yesterday?'selected':''}>10月25日 · 昨日</option><option value="24" ${!yesterday?'selected':''}>10月24日</option></select></div><div class="report-hero"><div class="eyebrow">YOUR DAILY FLASH BRIEF · 10.${reportDay}</div><h2>${yesterday?'流量正在转化为订单，<br>昨日表现稳步向上。':'活动热度持续攀升，<br>核心商品贡献突出。'}</h2><p class="muted">秋日焕新 · 10.23—10.29　/　第 ${yesterday?'3':'2'} 天<br>日报于次日 09:00 KST 更新</p></div><div class="report-grid">${metric('活动成交额',yesterday?'₩684,200':'₩548,237',yesterday?'↗ 24.8% 较前日':'↗ 16.2% 较前日')}${metric('活动支付订单',yesterday?'42':'35',yesterday?'↗ 20.0% 较前日':'↗ 16.7% 较前日')}${metric('活动支付转化率',yesterday?'4.82%':'4.46%',yesterday?'↗ 0.36 个百分点':'↗ 0.21 个百分点')}</div><div class="grid"><div class="card"><div class="topline"><h3>商品成交贡献</h3><span class="muted">GMV 占比</span></div>${[['纯棉短袖',yesterday?48:42],['通勤帆布包',yesterday?32:35],['休闲运动鞋',yesterday?20:23]].map(([n,v])=>`<div class="bar-row"><span>${n}</span><div class="bar-track"><b style="width:${v}%"></b></div><b>${v}%</b></div>`).join('')}<p class="muted" style="margin-top:25px">统计口径：活动归因的已支付金额，未扣除后续退款。</p></div><div class="card"><span class="pill">经营建议</span><h3 style="margin-top:17px">让畅销款保持竞争力</h3><p class="insight">${yesterday?'纯棉短袖贡献 48% 活动成交额，当前库存 68 件。按昨日销量估算可售约 2.4 天，建议优先检查补货计划。':'通勤帆布包的访客持续增长。建议关注商品详情页转化，并在下一次调整前核对优惠成本。'}</p><div class="notice">数据观察，仅供经营参考。<br>本期优惠方案保持不变。</div></div></div><div class="demo">日报对应「秋日焕新」演示活动；新报名的「Nov Big Smile Day」将在开场后生成日报。</div>`}
 function summary(){return `<div class="topline" style="margin-bottom:18px"><span class="pill">活动已结束</span><button class="text-btn" onclick="downloadReport()">↓ 导出活动总结</button></div><div class="report-hero"><div class="eyebrow">CAMPAIGN WRAP-UP / OCTOBER</div><h2>7 天闪购，<br>收获一份值得延续的增长。</h2><p class="muted">10月生活好物 Flash Sale · 2026.10.12 — 10.18<br>报告生成：10月19日 09:00 KST</p></div><div class="metrics">${metric('活动累计成交额','₩4,862,000','↗ 32.6% 较活动前7天')}${metric('支付订单','312','↗ 28.4% 较活动前7天')}${metric('活动商品访客','8,964','↗ 22.1% 较活动前7天')}${metric('退款金额','₩146,000','占支付金额 3.0%',true)}</div><div class="grid"><div class="card"><h3>目标完成情况</h3><div class="topline" style="margin-top:22px"><span class="muted">成交目标 ₩6,200,000</span><b>78.4%</b></div><div class="progress"><b></b></div><p class="muted">距离目标还差 ₩1,338,000。<br>活动成交较前期提升，但未达到预设目标。</p><div class="section-head"><h3>商品表现</h3><span class="muted">成交金额</span></div>${[['纯棉短袖',54,'₩2,625,480'],['通勤帆布包',29,'₩1,409,980'],['休闲运动鞋',17,'₩826,540']].map(([n,v,m])=>`<div class="topline" style="padding:15px 0;border-top:1px solid var(--line);font-size:12px"><span>${n} <span class="muted">${v}%</span></span><b>${m}</b></div>`).join('')}</div><div class="card"><span class="pill">NEXT OPPORTUNITY</span><h3 style="margin-top:18px">下一场，可以做得更好</h3><p class="insight">① 提前备货<br><span class="muted">短袖在活动末期库存偏低，下期优先增加畅销尺码备货。</span></p><p class="insight">② 复核优惠投入<br><span class="muted">成交增长不等于利润增长，报名时核对 SD 与 SV 的叠加成本。</span></p><p class="insight">③ 承接新一轮流量<br><span class="muted">Nov Big Smile Day已开放招商，3 件商品满足基础要求。</span></p><button class="btn" style="width:100%;margin-top:8px" onclick="go('sale')">查看下一场机会 ↗</button></div></div><div class="demo">对比口径：活动期间与活动前连续7天、相同商品范围。成交额为支付口径；退款金额截至报告生成时间。此原型未提供利润测算。</div>`}
-function downloadReport(){const text=translate('ESM+ Flash Sale 活动总结\n活动：10月生活好物\n时间：2026.10.12—10.18\n成交金额：KRW 4,862,000\n订单：312\n商品访客：8,964\n退款金额：KRW 146,000\n目标完成：78.4%\n对比：活动前连续7天，相同商品范围\n建议：补充畅销尺码库存；复核SD与SV成本；关注下一期招商。\n全部为演示数据。');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'}));a.download='ESM-Flash-Sale-20261018.txt';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('活动总结已导出')}document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeMenu()};if(e.key==='Tab'&&document.querySelector('.modal')){const b=[...document.querySelectorAll('.modal button')];if(e.shiftKey&&document.activeElement===b[0]){e.preventDefault();b.at(-1).focus()}else if(!e.shiftKey&&document.activeElement===b.at(-1)){e.preventDefault();b[0].focus()}}});render();
+function downloadReport(){const text=translate('ESM+ Flash Sale 活动总结\n活动：10月生活好物\n时间：2026.10.12—10.18\n成交金额：KRW 4,862,000\n订单：312\n商品访客：8,964\n退款金额：KRW 146,000\n目标完成：78.4%\n对比：活动前连续7天，相同商品范围\n建议：补充畅销尺码库存；复核SD与SV成本；关注下一期招商。\n全部为演示数据。');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'}));a.download='ESM-Flash-Sale-20261018.txt';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('活动总结已导出')}document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeMenu()};if(e.key==='Tab'&&document.querySelector('.modal')){const b=[...document.querySelectorAll('.modal button:not([disabled]), .modal input:not([disabled]), .modal select:not([disabled])')];if(e.shiftKey&&document.activeElement===b[0]){e.preventDefault();b.at(-1).focus()}else if(!e.shiftKey&&document.activeElement===b.at(-1)){e.preventDefault();b[0].focus()}}});render();
 </script></body></html>
